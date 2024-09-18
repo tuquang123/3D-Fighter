@@ -4286,8 +4286,8 @@ MonoBehaviour:
       _serializedValue: 1717986944
   totalFrames: 36
   startUpFrames: 12
-  activeFrames: 18
-  recoveryFrames: 6
+  activeFrames: 19
+  recoveryFrames: 5
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -5580,9 +5580,9 @@ MonoBehaviour:
       height: 7.09
     _rect:
       _x:
-        _serializedValue: 0
+        _serializedValue: -9663676416
       _y:
-        _serializedValue: 0
+        _serializedValue: -14731738112
       topRight:
         x:
           _serializedValue: 27917287424

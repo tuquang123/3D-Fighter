@@ -3767,7 +3767,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 22
-    activeFramesEnds: 30
+    activeFramesEnds: 29
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -3786,7 +3786,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 4ff8210b96b80eb49a738f5ec697bc1a, type: 2}
     - {fileID: 11400000, guid: 2875ba2b82ba4414684bdca9090da7d4, type: 2}
     linkableMovesToggle: 1
-    hitConfirmToggle: 0
+    hitConfirmToggle: 1
     counterMoveToggle: 0
   gauges:
   - castingFrame: 0

@@ -81,7 +81,7 @@ public class DefaultBattleGUI : BattleGUI{
 	#endregion
 	void Start()
 	{
-		//StartCoroutine(RegenerateMana());
+		StartCoroutine(RegenerateMana());
 	}
 
 	IEnumerator RegenerateMana()
@@ -94,7 +94,13 @@ public class DefaultBattleGUI : BattleGUI{
 			{
 				player1.controlsScript.currentGaugesPoints[0] += 5;
 				UFE.FireGaugeChange(5, player1.controlsScript.currentGaugesPoints[5], player1.controlsScript);
-				Debug.LogError(player1.controlsScript.currentGaugesPoints[0]);
+				//Debug.LogError(player1.controlsScript.currentGaugesPoints[0]);
+			}
+			if ((int)player2.controlsScript.currentGaugesPoints[0] <= UFE.config.player2Character.maxGaugePoints)
+			{
+				player2.controlsScript.currentGaugesPoints[0] += 5;
+				UFE.FireGaugeChange(5, player2.controlsScript.currentGaugesPoints[5], player2.controlsScript);
+				//Debug.LogError(player2.controlsScript.currentGaugesPoints[0]);
 			}
 		}
 	}

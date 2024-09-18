@@ -24,8 +24,8 @@ MonoBehaviour:
   height: 168
   age: 25
   bloodType: Unknown
-  lifePoints: 1100
-  maxGaugePoints: 1000
+  lifePoints: 21000
+  maxGaugePoints: 100
   characterPrefabStorage: 0
   characterPrefab: {fileID: 7825692814119535292, guid: 53f5dd71bda54fd42a07b492e39ebd27,
     type: 3}
@@ -37,7 +37,7 @@ MonoBehaviour:
       type: 3}
     prefabResourcePath: _2DFighter\Characters\Ethan
     enableColorMask: 1
-    colorMask: {r: 1, g: 0.09790605, b: 0, a: 0}
+    colorMask: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -133,5 +133,5 @@ MonoBehaviour:
   - _2DFighter\MoveSets\Jack
   moves: []
   aiInstructionsSet:
-  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
-    behavior: 0
+  - aiInfo: {fileID: 11400000, guid: 2f8ac938e7545924bbdc52d6ca979ca3, type: 2}
+    behavior: 4

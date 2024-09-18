@@ -1,5 +1,4 @@
-﻿// This asset was uploaded by http://unityassetcollection.com
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class CameraControl : MonoBehaviour {

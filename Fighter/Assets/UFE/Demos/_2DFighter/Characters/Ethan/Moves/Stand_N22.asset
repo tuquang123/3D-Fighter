@@ -5130,8 +5130,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 42
   startUpFrames: 20
-  activeFrames: 6
-  recoveryFrames: 16
+  activeFrames: 7
+  recoveryFrames: 15
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0

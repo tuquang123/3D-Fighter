@@ -7858,6 +7858,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 128849018880
     damageScaling: 1
+    doesntKill: 0
     groundBounce: 0
     obeyDirectionalHit: 1
     hitEffectsOnHit: 1
