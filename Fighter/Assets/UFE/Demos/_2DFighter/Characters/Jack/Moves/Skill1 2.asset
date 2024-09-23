@@ -3645,17 +3645,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: 70b25f2117c312443a1a6aa26147e2ed, type: 3}
+    clip: {fileID: 7400000, guid: fb63dda3b9f133d45bcde0fa0b53d103, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3722305280
+      _serializedValue: 5726623232
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
-    type: 3}
+  characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Skill1 2
   description: 
   fps: 60
@@ -3676,10 +3675,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 52
-  startUpFrames: 11
-  activeFrames: 17
-  recoveryFrames: 24
+  totalFrames: 80
+  startUpFrames: 24
+  activeFrames: 5
+  recoveryFrames: 51
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3766,8 +3765,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 29
-    activeFramesEnds: 51
+    activeFramesBegins: 41
+    activeFramesEnds: 79
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -3783,8 +3782,8 @@ MonoBehaviour:
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000, guid: bebd67f5fe7cafe488073088bef92a09, type: 2}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
+    linkableMovesToggle: 0
+    hitConfirmToggle: 0
     counterMoveToggle: 0
   - linkType: 1
     allowBuffer: 1
@@ -3792,7 +3791,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 51
+    activeFramesEnds: 79
     counterMoveType: 0
     counterMoveFilter: {fileID: 11400000, guid: 84a73dfe6855ff04da6d5d3e232f4af6,
       type: 2}
@@ -3809,9 +3808,9 @@ MonoBehaviour:
     nextMoveStartupFrame: 1
     linkableMoves:
     - {fileID: 11400000}
-    linkableMovesToggle: 1
+    linkableMovesToggle: 0
     hitConfirmToggle: 0
-    counterMoveToggle: 1
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -3843,19 +3842,7 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces:
-  - castingFrame: 11
-    resetPreviousVertical: 1
-    resetPreviousHorizontal: 1
-    affectAssists: 0
-    affectCharacter: 1
-    _force:
-      x:
-        _serializedValue: 42949672960
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
+  appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -3866,8 +3853,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 11
-    activeFramesEnds: 27
+  - activeFramesBegin: 24
+    activeFramesEnds: 28
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -4078,14 +4065,14 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 1
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 1
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
@@ -4104,45 +4091,45 @@ MonoBehaviour:
         _serializedValue: 2147483648
       _rect:
         _x:
-          _serializedValue: -10393821184
+          _serializedValue: -22548578304
         _y:
-          _serializedValue: -3135326208
+          _serializedValue: -6356551680
         topRight:
           x:
-            _serializedValue: 2061584384
+            _serializedValue: 8890583040
           y:
-            _serializedValue: -3135326208
+            _serializedValue: -6356551680
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: -10393821184
+            _serializedValue: -22548578304
           y:
-            _serializedValue: -3135326208
+            _serializedValue: -6356551680
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 2061584384
+            _serializedValue: 8890583040
           y:
-            _serializedValue: 2534030848
+            _serializedValue: 18897856512
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: -10393821184
+            _serializedValue: -22548578304
           y:
-            _serializedValue: 2534030848
+            _serializedValue: 18897856512
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 12455405568
+          _serializedValue: 31439161344
         height:
-          _serializedValue: 5669357056
+          _serializedValue: 25254408192
         xMax:
-          _serializedValue: 2061584384
+          _serializedValue: 8890583040
         yMax:
-          _serializedValue: 2534030848
+          _serializedValue: 18897856512
       shape: 1
       type: 0
   blockableArea:
@@ -4226,11 +4213,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 6267646464
+        _serializedValue: 7490589184
       y:
-        _serializedValue: 19809613824
+        _serializedValue: 4552446976
       z:
-        _serializedValue: 8175684608
+        _serializedValue: 24406953984
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

@@ -3645,17 +3645,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 110194080
-    clip: {fileID: 7400000, guid: 25ea6ec919522b649a4aaa3a945eb632, type: 2}
+    clip: {fileID: 7400000, guid: c32d21769dd96664fbd0e245cb247bca, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2863311616
+      _serializedValue: 4008636416
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
-    type: 3}
+  characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Intro
   description: 
   fps: 60
@@ -3676,7 +3675,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 40
+  totalFrames: 56
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 30

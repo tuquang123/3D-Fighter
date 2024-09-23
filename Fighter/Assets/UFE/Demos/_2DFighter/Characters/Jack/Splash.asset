@@ -24,9 +24,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Training Room (Scene)
+    stageName: Training Room2D (Scene)
     stageLoadingMethod: 2
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom.unity
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom2D.unity
     screenshot: {fileID: 2800000, guid: 732b03cedb33338429bf2ce31b12cfb0, type: 3}
     prefab: {fileID: 0}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
@@ -286,12 +286,12 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    AIControlled: 01010000000000010101010101010101010101
+    AIControlled: 00000000000000010101010101010101010101
     selectedTeamMode: 0
-    skipLoadingScreen: 0
+    skipLoadingScreen: 1
   cameraOptions:
-    initialDistance: {x: 0, y: 9, z: -46}
-    initialRotation: {x: 7, y: 0, z: 0}
+    initialDistance: {x: 0, y: 2, z: -46}
+    initialRotation: {x: 0, y: 0, z: 0}
     enableLookAt: 1
     dollyAngle: 0
     distance3d: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
     stabilizeDolly: 1
     enableZoom: 1
     followCharacters: 0
-    initialFieldOfView: 15
+    initialFieldOfView: 20
     verticalPriority: 1
     verticalThreshold: 2
     movementSpeed: 12
@@ -309,7 +309,7 @@ MonoBehaviour:
       _serializedValue: 77309411328
     rotationSpeed: 12
     heightOffSet: 0.5
-    rotationOffSet: {x: 0, y: 3.5, z: 0}
+    rotationOffSet: {x: 0, y: 6, z: 30}
     motionSensor: 0
     motionSensibility: 1
   lockOnOptions:
@@ -408,11 +408,11 @@ MonoBehaviour:
       _serializedValue: 2576980480
     bounceSound: {fileID: 8300000, guid: 7cec4e4ba24f7db48b78639aa5b10a64, type: 3}
   wallBounceOptions:
-    bounceForce: 2
-    bouncePrefab: {fileID: 0}
+    bounceForce: 1
+    bouncePrefab: {fileID: 197042, guid: 843fef1ba393e374396b9fd4fbbb02a0, type: 3}
     bounceKillTime: 0.6
     _minimumBounceForce:
-      _serializedValue: 150323855360
+      _serializedValue: 107374182400
     _maximumBounces:
       _serializedValue: 8589934592
     sticky: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
       _shakeDensity:
         _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 0
     parryType: 0
     _parryTiming:
@@ -517,10 +517,10 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 1288490240
       _standUpTime:
-        _serializedValue: 1717986944
+        _serializedValue: 1288490240
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -540,10 +540,10 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 2576980480
       _standUpTime:
-        _serializedValue: 1288490240
+        _serializedValue: 1717986944
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -561,12 +561,12 @@ MonoBehaviour:
         _serializedValue: 0
     highLow:
       _knockedOutTime:
-        _serializedValue: 3435973888
+        _serializedValue: 1717986944
       _standUpTime:
         _serializedValue: 1717986944
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -589,7 +589,7 @@ MonoBehaviour:
         _serializedValue: 1717986944
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 1
+      editorToggle: 0
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -630,7 +630,7 @@ MonoBehaviour:
         _serializedValue: 0
     wallbounce:
       _knockedOutTime:
-        _serializedValue: 3006477056
+        _serializedValue: 1717986944
       _standUpTime:
         _serializedValue: 1288490240
       hideHitBoxesOnFrame: 10
@@ -1233,9 +1233,9 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 7
   stages:
-  - stageName: Training Room (Scene)
+  - stageName: Training Room2D (Scene)
     stageLoadingMethod: 2
-    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom.unity
+    stagePath: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom2D.unity
     screenshot: {fileID: 2800000, guid: 732b03cedb33338429bf2ce31b12cfb0, type: 3}
     prefab: {fileID: 0}
     music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}

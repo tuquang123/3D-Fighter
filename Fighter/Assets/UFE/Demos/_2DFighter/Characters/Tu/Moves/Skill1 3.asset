@@ -3925,7 +3925,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 2
+    hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
       _serializedValue: 300647710720
@@ -3942,7 +3942,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 3435973836800
     doesntKill: 0
-    hitType: 6
+    hitType: 0
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0

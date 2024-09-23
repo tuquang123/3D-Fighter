@@ -6791,17 +6791,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: -124576192
-    clip: {fileID: 7400000, guid: 342512909aa256541bcbaf147d4e604f, type: 3}
+    clip: {fileID: 7400000, guid: 3fa5704c6cebc174da2ffca73404fc80, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 8589934592
+      _serializedValue: 4294967296
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 2147483648
   wrapMode: 0
-  characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
-    type: 3}
+  characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Block
   description: 
   fps: 60
@@ -6966,7 +6965,7 @@ MonoBehaviour:
     enabled: 1
     activeFramesBegin: 0
     activeFramesEnds: 119
-    bodyPart: 14
+    bodyPart: 9
     hitBoxDefinitionIndex: 0
     shape: 1
     rect:
@@ -7043,11 +7042,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 5050867712
+        _serializedValue: 12190818304
       y:
-        _serializedValue: 1454472704
+        _serializedValue: 2094625024
       z:
-        _serializedValue: 3110811392
+        _serializedValue: 365516672
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

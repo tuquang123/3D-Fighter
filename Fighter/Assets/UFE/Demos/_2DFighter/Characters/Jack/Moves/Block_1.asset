@@ -3645,10 +3645,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    clip: {fileID: 7400000, guid: f3a7714a31c8eb844a3fccf4d1f80366, type: 3}
+    clip: {fileID: 7400000, guid: 98b40a0f8d28b2541854c6fa4941f7bb, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 1431655808
+      _serializedValue: 5583457792
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -3676,10 +3676,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 30
-  startUpFrames: 11
-  activeFrames: 5
-  recoveryFrames: 14
+  totalFrames: 20
+  startUpFrames: 12
+  activeFrames: 3
+  recoveryFrames: 5
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -3818,8 +3818,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 11
-    activeFramesEnds: 15
+  - activeFramesBegin: 12
+    activeFramesEnds: 14
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -3913,11 +3913,11 @@ MonoBehaviour:
     damageScaling: 1
     damageType: 1
     _damageOnHit:
-      _serializedValue: 42949672960
+      _serializedValue: 3435973836800
     _minDamageOnHit:
       _serializedValue: 0
     _damageOnBlock:
-      _serializedValue: 42949672960
+      _serializedValue: 3435973836800
     doesntKill: 0
     hitType: 0
     resetPreviousHorizontalPush: 1
@@ -4178,11 +4178,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 7749998592
+        _serializedValue: 12721972224
       y:
-        _serializedValue: 16583836672
+        _serializedValue: 10209597440
       z:
-        _serializedValue: 2306820096
+        _serializedValue: 2281214464
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

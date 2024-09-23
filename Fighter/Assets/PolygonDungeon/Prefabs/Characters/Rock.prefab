@@ -2267,10 +2267,10 @@ MonoBehaviour:
         _serializedValue: 0
   - rect:
       serializedVersion: 2
-      x: -0.35
-      y: 0.01
-      width: 0.75
-      height: 7.25
+      x: -1.27
+      y: -0.22
+      width: 2.55
+      height: 7.29
     defaultVisibility: 1
     followXBounds: 0
     followYBounds: 0
@@ -2295,45 +2295,45 @@ MonoBehaviour:
     type: 0
     _rect:
       _x:
-        _serializedValue: -1503238528
+        _serializedValue: -5454608384
       _y:
-        _serializedValue: 42949672
+        _serializedValue: -944892800
       topRight:
         x:
-          _serializedValue: 1717986944
+          _serializedValue: 5497558016
         y:
-          _serializedValue: 42949672
+          _serializedValue: -944892800
         z:
           _serializedValue: 0
       topLeft:
         x:
-          _serializedValue: -1503238528
+          _serializedValue: -5454608384
         y:
-          _serializedValue: 42949672
+          _serializedValue: -944892800
         z:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 1717986944
+          _serializedValue: 5497558016
         y:
-          _serializedValue: 31181463552
+          _serializedValue: 30365419520
         z:
           _serializedValue: 0
       bottomLeft:
         x:
-          _serializedValue: -1503238528
+          _serializedValue: -5454608384
         y:
-          _serializedValue: 31181463552
+          _serializedValue: 30365419520
         z:
           _serializedValue: 0
       width:
-        _serializedValue: 3221225472
+        _serializedValue: 10952166400
       height:
-        _serializedValue: 31138512896
+        _serializedValue: 31310311424
       xMax:
-        _serializedValue: 1717986944
+        _serializedValue: 5497558016
       yMax:
-        _serializedValue: 31181463552
+        _serializedValue: 30365419520
     _radius:
       _serializedValue: 2576980480
     _offSet:

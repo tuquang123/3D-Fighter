@@ -7265,17 +7265,16 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 20656684
-    clip: {fileID: 7400000, guid: 690ad8b84b5b3ec4dae7c5250e7ceeb6, type: 2}
+    clip: {fileID: 7400000, guid: 1a436aa52e89b8049bdafcd98b98ca6b, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3579139584
+      _serializedValue: 4294967296
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 1272366937168992, guid: 01b0a963f13679544a22d6e63d5256c6,
-    type: 3}
+  characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Fire Ball Light
   description: Fire Ball Light
   fps: 60
@@ -7296,7 +7295,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 50
+  totalFrames: 60
   startUpFrames: -1
   activeFrames: 2
   recoveryFrames: 49
@@ -7561,10 +7560,10 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles:
-  - castingFrame: 10
-    projectilePrefab: {fileID: 100000, guid: e0629515d33ba6e4e9b138227446813f, type: 3}
-    impactPrefab: {fileID: 100008, guid: 270642c674ce99b44ae5263686a8642c, type: 3}
-    bodyPart: 8
+  - castingFrame: 15
+    projectilePrefab: {fileID: 100004, guid: 0cbf0aa248ee0d343ac193497cbd5f31, type: 3}
+    impactPrefab: {fileID: 100008, guid: 143e055fde3ff3a4088e01d56bd51fe0, type: 3}
+    bodyPart: 9
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:

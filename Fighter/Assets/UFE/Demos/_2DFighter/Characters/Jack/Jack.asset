@@ -27,17 +27,15 @@ MonoBehaviour:
   lifePoints: 21000
   maxGaugePoints: 100
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 7825692814119535292, guid: 53f5dd71bda54fd42a07b492e39ebd27,
-    type: 3}
+  characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   prefabResourcePath: _2DFighter\Characters\Ethan
   alternativeCostumes:
   - name: B Jack
     characterPrefabStorage: 0
-    prefab: {fileID: 7825692814119535292, guid: 53f5dd71bda54fd42a07b492e39ebd27,
-      type: 3}
+    prefab: {fileID: 162860, guid: e31e90d947e4c2a49b294642cb4eec74, type: 3}
     prefabResourcePath: _2DFighter\Characters\Ethan
     enableColorMask: 1
-    colorMask: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
+    colorMask: {r: 0.22264141, g: 0.20234586, b: 0.19953711, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -123,7 +121,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 85899344
   animationType: 1
-  avatar: {fileID: 9000000, guid: f279a42afc3100543849ef4eeb2510d8, type: 3}
+  avatar: {fileID: 9000000, guid: b69174d668ba02d44b14a084b217670a, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
