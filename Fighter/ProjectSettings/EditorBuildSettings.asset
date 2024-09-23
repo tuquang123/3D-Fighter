@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UFE/Demos/_2DFighter/Splash.unity
+    path: Assets/UFE/Demos/_2DFighter/Characters/Jack/Splash.unity
     guid: a4f99dda2dd9d4442b85a6936f4bb0d9
   - enabled: 1
     path: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom2D.unity
