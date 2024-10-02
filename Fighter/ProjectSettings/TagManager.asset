@@ -7,6 +7,7 @@ TagManager:
   - Projectile
   - Player1
   - Dark
+  - VFX
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Projectile1
   - Projectile2
   - Dark
-  - 
+  - VFX
   - 
   - 
   - 
@@ -41,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: VFX
+    uniqueID: 3362624229
+    locked: 0
   - name: Player
     uniqueID: 2376862727
     locked: 0

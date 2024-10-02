@@ -1507,7 +1507,7 @@ Animator:
   m_GameObject: {fileID: 162860}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b69174d668ba02d44b14a084b217670a, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90f44bf03e1822d458c3397942a6663a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2628,7 +2628,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: -0.86
       y: -0.09
-      width: 2.52
+      width: 2.95
       height: 7.46
     defaultVisibility: 1
     followXBounds: 0
@@ -2659,7 +2659,7 @@ MonoBehaviour:
         _serializedValue: -386547072
       topRight:
         x:
-          _serializedValue: 7129645568
+          _serializedValue: 8976482304
         y:
           _serializedValue: -386547072
         z:
@@ -2673,7 +2673,7 @@ MonoBehaviour:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 7129645568
+          _serializedValue: 8976482304
         y:
           _serializedValue: 31653908480
         z:
@@ -2686,11 +2686,11 @@ MonoBehaviour:
         z:
           _serializedValue: 0
       width:
-        _serializedValue: 10823317504
+        _serializedValue: 12670153728
       height:
         _serializedValue: 32040456192
       xMax:
-        _serializedValue: 7129645568
+        _serializedValue: 8976482304
       yMax:
         _serializedValue: 31653908480
     _radius:

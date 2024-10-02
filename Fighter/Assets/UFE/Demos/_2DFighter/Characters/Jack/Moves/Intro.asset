@@ -3652,7 +3652,7 @@ MonoBehaviour:
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 2147483648
   wrapMode: 0
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Intro
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 56
+  totalFrames: 112
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 30
@@ -3685,8 +3685,8 @@ MonoBehaviour:
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 1
-  overrideBlendingOut: 1
+  overrideBlendingIn: 0
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 429496736
   _blendingOut:
@@ -3777,19 +3777,7 @@ MonoBehaviour:
   gauges: []
   sortOrder: []
   particleEffects: []
-  appliedForces:
-  - castingFrame: 8
-    resetPreviousVertical: 0
-    resetPreviousHorizontal: 0
-    affectAssists: 0
-    affectCharacter: 1
-    _force:
-      x:
-        _serializedValue: -128849018880
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
+  appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -3798,7 +3786,26 @@ MonoBehaviour:
   soundEffects: []
   inGameAlert: []
   stanceChanges: []
-  cameraMovements: []
+  cameraMovements:
+  - cinematicType: 0
+    animationClip: {fileID: 0}
+    prefab: {fileID: 0}
+    camAnimationSpeed: 1
+    blendSpeed: 100
+    gameObjectPosition: {x: 0, y: 0, z: 0}
+    position: {x: 44, y: 10.5, z: -11}
+    rotation: {x: 6.0000005, y: 284, z: 357.3}
+    castingFrame: 0
+    _duration:
+      _serializedValue: 9019430912
+    fieldOfView: 5
+    camSpeed: 2
+    freezePhysics: 0
+    _myAnimationSpeed:
+      _serializedValue: 429496729600
+    _opAnimationSpeed:
+      _serializedValue: 429496729600
+    previewToggle: 0
   hits: []
   blockableArea:
     enabled: 0

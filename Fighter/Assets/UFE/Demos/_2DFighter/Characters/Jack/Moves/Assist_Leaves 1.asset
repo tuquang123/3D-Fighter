@@ -3171,7 +3171,39 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks: []
+  frameLinks:
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 18
+    activeFramesEnds: 21
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 0f2e7074910ea63409aec17f22f7fadd, type: 2}
+    - {fileID: 11400000, guid: 9a95ad4053cdea84784811dcc803155d, type: 2}
+    - {fileID: 11400000, guid: 3fbff94a1bc757a48bba81aaaab82d30, type: 2}
+    - {fileID: 11400000, guid: 5ca1fc7b63bc7934994ab7877942561e, type: 2}
+    - {fileID: 11400000, guid: 6838698966b2c0a4eae6ce8d53b4652f, type: 2}
+    - {fileID: 11400000, guid: de6efe6b012e479479e62095c4a87a1a, type: 2}
+    - {fileID: 11400000, guid: f37780ddab2eb1846ae302d98c1a7e17, type: 2}
+    - {fileID: 11400000, guid: 84a73dfe6855ff04da6d5d3e232f4af6, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 1
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -3204,7 +3236,7 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 1
+  - castingFrame: 2
     resetPreviousVertical: 1
     resetPreviousHorizontal: 1
     affectAssists: 0
@@ -3213,7 +3245,7 @@ MonoBehaviour:
       x:
         _serializedValue: -171798691840
       y:
-        _serializedValue: 128849018880
+        _serializedValue: 150323855360
       z:
         _serializedValue: 0
   opAppliedForces: []

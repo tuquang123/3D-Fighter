@@ -3652,7 +3652,7 @@ MonoBehaviour:
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
-    _serializedValue: 4294967296
+    _serializedValue: 6442450944
   wrapMode: 0
   characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
     type: 3}
@@ -3676,7 +3676,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 32
+  totalFrames: 21
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 2
@@ -3686,8 +3686,8 @@ MonoBehaviour:
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 1
-  overrideBlendingOut: 1
+  overrideBlendingIn: 0
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 0
   _blendingOut:
@@ -3767,7 +3767,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 28
+    activeFramesEnds: 20
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -3786,18 +3786,48 @@ MonoBehaviour:
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 1
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 10
+    activeFramesEnds: 20
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 3fbff94a1bc757a48bba81aaaab82d30, type: 2}
+    - {fileID: 11400000, guid: 84a73dfe6855ff04da6d5d3e232f4af6, type: 2}
+    - {fileID: 11400000, guid: 0f2e7074910ea63409aec17f22f7fadd, type: 2}
+    - {fileID: 11400000, guid: 9a95ad4053cdea84784811dcc803155d, type: 2}
+    - {fileID: 11400000, guid: 6838698966b2c0a4eae6ce8d53b4652f, type: 2}
+    - {fileID: 11400000, guid: 5ca1fc7b63bc7934994ab7877942561e, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
   gauges: []
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 8
+  - castingFrame: 5
     resetPreviousVertical: 1
     resetPreviousHorizontal: 1
     affectAssists: 0
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: 171798691840
+        _serializedValue: 214748364800
       y:
         _serializedValue: 0
       z:
@@ -3815,7 +3845,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 0
     activeFramesBegin: 0
-    activeFramesEnds: 29
+    activeFramesEnds: 20
     bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0

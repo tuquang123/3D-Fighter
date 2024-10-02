@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Jack
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 9ab4f75b5c2b21341b468f792ca50a96, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 07f8685af1afa954ea53fa4b8415386e, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: bfa5d77db3eb9b74e836ed8857c331b4, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 7accb1fe28061984e8dab259542b00d3, type: 3}
   characterName: Jack
   gender: 1
   characterDescription: Jack
