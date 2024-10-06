@@ -24,7 +24,7 @@ MonoBehaviour:
   height: 168
   age: 25
   bloodType: Unknown
-  lifePoints: 21000
+  lifePoints: 15000
   maxGaugePoints: 100
   characterPrefabStorage: 0
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
@@ -54,9 +54,9 @@ MonoBehaviour:
       _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 30064771072
+      _serializedValue: 128849018880
     _moveBackSpeed:
-      _serializedValue: 27917287424
+      _serializedValue: 128849018880
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
@@ -132,4 +132,4 @@ MonoBehaviour:
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 2f8ac938e7545924bbdc52d6ca979ca3, type: 2}
-    behavior: 4
+    behavior: 5

@@ -7275,8 +7275,8 @@ MonoBehaviour:
     _serializedValue: 4294967296
   wrapMode: 0
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
-  moveName: Fire Ball Light
-  description: Fire Ball Light
+  moveName: 4
+  description: 2
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -7488,7 +7488,7 @@ MonoBehaviour:
   - castingFrame: 2
     particleEffect:
       editorToggle: 0
-      prefab: {fileID: 8205111098462355473, guid: 669165fa787c123479f1e5058108a6cb,
+      prefab: {fileID: 6985918888697356210, guid: 5b1655d0dd2496c40bd62ee479f862aa,
         type: 3}
       duration: 0.8
       stick: 0
@@ -7501,21 +7501,6 @@ MonoBehaviour:
       positionOffSet: {x: 0, y: 2.5, z: 0}
       bodyPart: 1
       hitBoxDefinitionIndex: 0
-  - castingFrame: 0
-    particleEffect:
-      editorToggle: 0
-      prefab: {fileID: 1429920356121462, guid: 2d83bec3d7cbcfb44a5931c7442dbec8, type: 3}
-      duration: 0.6
-      stick: 0
-      destroyOnMoveOver: 0
-      followRotation: 0
-      lockLocalPosition: 0
-      mirrorOn2PSide: 0
-      overrideRotation: 1
-      initialRotation: {x: 180, y: 0, z: 180}
-      positionOffSet: {x: -1.2, y: -1.5, z: 0}
-      bodyPart: 9
-      hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
@@ -7526,7 +7511,7 @@ MonoBehaviour:
   - castingFrame: 0
     sounds:
     - {fileID: 8300000, guid: b5a3e342768b0d64d94a8d84656798d8, type: 3}
-    soundEffectsToggle: 0
+    soundEffectsToggle: 1
   inGameAlert:
   - castingFrame: 0
     alert: Strick
@@ -7654,29 +7639,29 @@ MonoBehaviour:
     nonAffectedBodyParts: 
   projectiles:
   - castingFrame: 17
-    projectilePrefab: {fileID: 1625020012972724, guid: 504575fbea344544a81ac892ca68d39b,
+    projectilePrefab: {fileID: 3848372677232997033, guid: 8e913540505aded4189e0d06dfc46258,
       type: 3}
-    impactPrefab: {fileID: 100008, guid: 143e055fde3ff3a4088e01d56bd51fe0, type: 3}
+    impactPrefab: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
     bodyPart: 9
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:
-        _serializedValue: 0
+        _serializedValue: -8589934592
       y:
-        _serializedValue: -6442450944
+        _serializedValue: 0
       z:
         _serializedValue: 0
-    speed: 18
+    speed: 12
     directionAngle: 0
     _duration:
-      _serializedValue: 42949672960
-    impactDuration: 0.6
+      _serializedValue: 6442450944
+    impactDuration: 1
     fixedZAxis: 1
     projectileCollision: 1
     unblockable: 0
     mirrorOn2PSide: 1
     destroyWhenOffCameraBounds: 1
-    applyGravity: 1
+    applyGravity: 0
     limitMultiCasting: 0
     onScreenLimit: 0
     limitOnlyThis: 0
@@ -7779,53 +7764,53 @@ MonoBehaviour:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 0
+          _serializedValue: 12884901888
         z:
           _serializedValue: 0
       _radius:
         _serializedValue: 2576980480
       _rect:
         _x:
-          _serializedValue: 0
+          _serializedValue: -8589934592
         _y:
-          _serializedValue: 0
+          _serializedValue: 12884901888
         topRight:
           x:
-            _serializedValue: 5153960960
+            _serializedValue: -3435973632
           y:
-            _serializedValue: 0
+            _serializedValue: 12884901888
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: 0
+            _serializedValue: -8589934592
           y:
-            _serializedValue: 0
+            _serializedValue: 12884901888
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 5153960960
+            _serializedValue: -3435973632
           y:
-            _serializedValue: 5153960960
+            _serializedValue: 25769803776
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: 0
+            _serializedValue: -8589934592
           y:
-            _serializedValue: 5153960960
+            _serializedValue: 25769803776
           z:
             _serializedValue: 0
         width:
           _serializedValue: 5153960960
         height:
-          _serializedValue: 5153960960
+          _serializedValue: 12884901888
         xMax:
-          _serializedValue: 5153960960
+          _serializedValue: -3435973632
         yMax:
-          _serializedValue: 5153960960
-      shape: 0
+          _serializedValue: 25769803776
+      shape: 1
       type: 0
     blockableArea:
       enabled: 1
@@ -7837,40 +7822,40 @@ MonoBehaviour:
       rect:
         serializedVersion: 2
         x: -2
-        y: -0.5
+        y: 3
         width: 6
         height: 1
       _rect:
         _x:
           _serializedValue: -8589934592
         _y:
-          _serializedValue: -2147483648
+          _serializedValue: 12884901888
         topRight:
           x:
             _serializedValue: 17179869184
           y:
-            _serializedValue: -2147483648
+            _serializedValue: 12884901888
           z:
             _serializedValue: 0
         topLeft:
           x:
             _serializedValue: -8589934592
           y:
-            _serializedValue: -2147483648
+            _serializedValue: 12884901888
           z:
             _serializedValue: 0
         bottomRight:
           x:
             _serializedValue: 17179869184
           y:
-            _serializedValue: 2147483648
+            _serializedValue: 17179869184
           z:
             _serializedValue: 0
         bottomLeft:
           x:
             _serializedValue: -8589934592
           y:
-            _serializedValue: 2147483648
+            _serializedValue: 17179869184
           z:
             _serializedValue: 0
         width:
@@ -7880,7 +7865,7 @@ MonoBehaviour:
         xMax:
           _serializedValue: 17179869184
         yMax:
-          _serializedValue: 2147483648
+          _serializedValue: 17179869184
       followXBounds: 0
       followYBounds: 0
       _radius:
@@ -7940,11 +7925,11 @@ MonoBehaviour:
       _shakeDensity:
         _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
-      editorToggle: 0
+        _serializedValue: 3435973888
+      editorToggle: 1
     groundHit: 1
     airHit: 1
-    downHit: 0
+    downHit: 1
     damageType: 1
     _damageOnHit:
       _serializedValue: 3435973836800
@@ -7952,9 +7937,9 @@ MonoBehaviour:
       _serializedValue: 3435973836800
     damageScaling: 1
     doesntKill: 0
-    groundBounce: 1
-    obeyDirectionalHit: 1
-    hitEffectsOnHit: 1
+    groundBounce: 0
+    obeyDirectionalHit: 0
+    hitEffectsOnHit: 0
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     applyDifferentAirForce: 1
@@ -7963,7 +7948,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 154618822656
+        _serializedValue: 171798691840
       z:
         _serializedValue: 0
     _pushForceAir:
@@ -7980,8 +7965,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    hitStrength: 0
-    hitType: 0
+    hitStrength: 2
+    hitType: 1
     moveLinkOnStrike: {fileID: 0}
     moveLinkOnBlock: {fileID: 0}
     moveLinkOnParry: {fileID: 0}

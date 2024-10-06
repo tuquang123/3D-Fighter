@@ -6076,8 +6076,8 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
     type: 3}
-  moveName: Assist Call
-  description: 
+  moveName: 5
+  description: 3
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0

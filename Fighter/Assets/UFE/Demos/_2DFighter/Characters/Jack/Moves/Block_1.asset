@@ -3697,7 +3697,7 @@ MonoBehaviour:
     _chargeTiming:
       _serializedValue: 3006477107
     allowInputLeniency: 0
-    allowNegativeEdge: 1
+    allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 3
     onReleaseExecution: 0
@@ -3752,8 +3752,8 @@ MonoBehaviour:
   moveClassification:
     attackType: 1
     hitType: 0
-    startupSpeed: 3
-    recoverySpeed: 1
+    startupSpeed: 2
+    recoverySpeed: 4
     hitConfirmType: 0
     preferableDistance: 2
     gaugeUsage: 2
@@ -3930,7 +3930,7 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 42949672960
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:

@@ -98,13 +98,12 @@ MonoBehaviour:
     pauseScreen: {fileID: 11400000, guid: 6241d31f6482b42a88a8e7c8b62e2716, type: 3}
     characterSelectionScreen: {fileID: 11400026, guid: 044e38aaf7ac94e0fa12cf4125faf378,
       type: 3}
-    teamSelectionScreen: {fileID: 5455732863811655924, guid: 893bbcda5646c654c8799be0a622492b,
-      type: 3}
+    teamSelectionScreen: {fileID: 0}
     stageSelectionScreen: {fileID: 11400008, guid: 4e1ca63af339f4c6b84a167dd4fc7ede,
       type: 3}
     loadingBattleScreen: {fileID: 11400008, guid: 238b7713a35be4f919fcef89a9d43a23,
       type: 3}
-    battleGUI: {fileID: 11400032, guid: 3cc97a7591eae4678bb26cd12746e0ec, type: 3}
+    battleGUI: {fileID: 11400032, guid: 839c95128b6e76a4d89d754f7a7d6a8b, type: 3}
     storyModeContinueScreen: {fileID: 11400018, guid: 979dfe6c6baae4df1ae04fdbd4bcbff1,
       type: 3}
     storyModeGameOverScreen: {fileID: 11400004, guid: 79e43a319a85a4c7ea68f019b05163cc,
@@ -135,8 +134,7 @@ MonoBehaviour:
       type: 3}
     bluetoothJoinGameScreen: {fileID: 1280977612704507517, guid: 4ef139d7b4fcc405d969d2c14596b826,
       type: 3}
-    randomMatchScreen: {fileID: 11465242, guid: 7a59eda27876247fbb0780cb1cd96a82,
-      type: 3}
+    randomMatchScreen: {fileID: 0}
     searchMatchScreen: {fileID: 1331261798707525155, guid: 9274ca32063bb75458ee4293f5cf88ba,
       type: 3}
     onlineModeAfterBattleScreen: {fileID: 3037139450037907122, guid: 091e344efe34e334cace17124d4c47ed,
@@ -265,7 +263,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 2
     activeCharacters:
     - {fileID: 11400000, guid: 3864ad52e41ca9f4c8e2d7bdb6d2bc3c, type: 2}
     - {fileID: 11400000, guid: 3864ad52e41ca9f4c8e2d7bdb6d2bc3c, type: 2}
@@ -398,9 +396,9 @@ MonoBehaviour:
     bouncePrefab: {fileID: 197042, guid: 843fef1ba393e374396b9fd4fbbb02a0, type: 3}
     bounceKillTime: 0.6
     _minimumBounceForce:
-      _serializedValue: 64424509440
+      _serializedValue: 21474836480
     _maximumBounces:
-      _serializedValue: 8589934592
+      _serializedValue: 4294967296
     sticky: 0
     bounceHitBoxes: 1
     shakeCamOnBounce: 1
@@ -412,9 +410,9 @@ MonoBehaviour:
     bouncePrefab: {fileID: 197042, guid: 843fef1ba393e374396b9fd4fbbb02a0, type: 3}
     bounceKillTime: 0.6
     _minimumBounceForce:
-      _serializedValue: 64424509440
+      _serializedValue: 21474836480
     _maximumBounces:
-      _serializedValue: 8589934592
+      _serializedValue: 4294967296
     sticky: 0
     bounceHitBoxes: 1
     shakeCamOnBounce: 1
@@ -477,7 +475,7 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 3435973888
-      editorToggle: 1
+      editorToggle: 0
     parryType: 0
     _parryTiming:
       _serializedValue: 1288490240
@@ -612,7 +610,7 @@ MonoBehaviour:
         _serializedValue: 4294967296
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -635,7 +633,7 @@ MonoBehaviour:
         _serializedValue: 1288490240
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -673,7 +671,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       _shakeCameraDensity:
         _serializedValue: 3865470464
-      editorToggle: 1
+      editorToggle: 0
     mediumHit:
       hitParticle: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
       killTime: 0.6
@@ -694,7 +692,7 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 5153960960
-      editorToggle: 1
+      editorToggle: 0
     heavyHit:
       hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
       killTime: 0.6
@@ -715,7 +713,7 @@ MonoBehaviour:
         _serializedValue: 5153960960
       _shakeCameraDensity:
         _serializedValue: 7730940928
-      editorToggle: 1
+      editorToggle: 0
     crumpleHit:
       hitParticle: {fileID: 1459499847029934, guid: e78df5c3545b7324991134d6f0eb6528,
         type: 3}
@@ -737,7 +735,7 @@ MonoBehaviour:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 3435973888
-      editorToggle: 1
+      editorToggle: 0
     customHit1:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -1057,10 +1055,42 @@ MonoBehaviour:
     inputViewerIcon4: {fileID: 0}
     inputViewerIcon5: {fileID: 0}
     inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button10
+    engineRelatedButton: 13
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button11
+    engineRelatedButton: 14
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1495,11 +1525,11 @@ MonoBehaviour:
     stateTrackerTest: 0
     recordMatchTools: 0
     playbackPhysics: 0
-    displayInputsNetwork: 1
-    displayInputsVersus: 1
-    displayInputsTraining: 1
+    displayInputsNetwork: 0
+    displayInputsVersus: 0
+    displayInputsTraining: 0
     displayInputsStoryMode: 0
-    displayInputsChallengeMode: 1
+    displayInputsChallengeMode: 0
     p1DebugInfo:
       toggle: 0
       currentMove: 1
