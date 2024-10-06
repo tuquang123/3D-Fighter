@@ -593,7 +593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -19, y: 0}
+  m_AnchoredPosition: {x: 103, y: -29}
   m_SizeDelta: {x: 516.73, y: 300}
   m_Pivot: {x: 1, y: 0}
 --- !u!1 &124012
@@ -8466,6 +8466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button-0
       objectReference: {fileID: 0}
+    - target: {fileID: 2522427038191628334, guid: 4244c9278ec5eb346a486970eba5f82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2522427038202948938, guid: 4244c9278ec5eb346a486970eba5f82f,
         type: 3}
       propertyPath: pressBinding.axisList.Array.data[0].axisName
@@ -8614,6 +8619,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button-0
       objectReference: {fileID: 0}
+    - target: {fileID: 2522427038191628334, guid: 4244c9278ec5eb346a486970eba5f82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2522427038202948938, guid: 4244c9278ec5eb346a486970eba5f82f,
         type: 3}
       propertyPath: pressBinding.axisList.Array.data[0].axisName
@@ -8761,6 +8771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Button-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522427038191628334, guid: 4244c9278ec5eb346a486970eba5f82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2522427038202948938, guid: 4244c9278ec5eb346a486970eba5f82f,
         type: 3}
@@ -9206,6 +9221,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button-4
       objectReference: {fileID: 0}
+    - target: {fileID: 2522427038191628334, guid: 4244c9278ec5eb346a486970eba5f82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2522427038202948938, guid: 4244c9278ec5eb346a486970eba5f82f,
         type: 3}
       propertyPath: pressBinding.axisList.Array.data[0].axisName
@@ -9353,6 +9373,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Button-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522427038191628334, guid: 4244c9278ec5eb346a486970eba5f82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2522427038202948938, guid: 4244c9278ec5eb346a486970eba5f82f,
         type: 3}

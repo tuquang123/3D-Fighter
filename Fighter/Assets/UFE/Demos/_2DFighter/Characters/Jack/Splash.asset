@@ -263,7 +263,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 2
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 3864ad52e41ca9f4c8e2d7bdb6d2bc3c, type: 2}
     - {fileID: 11400000, guid: 3864ad52e41ca9f4c8e2d7bdb6d2bc3c, type: 2}

@@ -29,6 +29,8 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	override public void Init()
 		{
 		this.rig = this.GetComponentInChildren<InputRig>();
+		UFE.OnMove += OnMovePerformed;
+		UFE.OnGameBegin += OnInitAbility;
 
 
 #if UNITY_EDITOR
@@ -53,8 +55,8 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 
 	void Awake()
 	{
-		UFE.OnMove += OnMovePerformed;
-		UFE.OnGameBegin += OnInitAbility;
+		//UFE.OnMove += OnMovePerformed;
+		//UFE.OnGameBegin += OnInitAbility;
 	}
 
 	void OnMovePerformed(MoveInfo move, ControlsScript player)
