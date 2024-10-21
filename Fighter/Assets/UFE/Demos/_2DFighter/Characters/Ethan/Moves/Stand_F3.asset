@@ -6703,8 +6703,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 55
   startUpFrames: 26
-  activeFrames: 10
-  recoveryFrames: 19
+  activeFrames: 11
+  recoveryFrames: 18
   applyRootMotion: 1
   lockXMotion: 0
   lockYMotion: 0
@@ -6792,7 +6792,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 55
+    activeFramesEnds: 54
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -7072,7 +7072,7 @@ MonoBehaviour:
     selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 0
     wallBounceToggle: 0

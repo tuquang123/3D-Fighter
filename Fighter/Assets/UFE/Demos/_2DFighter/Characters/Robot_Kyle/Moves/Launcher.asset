@@ -11648,8 +11648,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 81
   startUpFrames: 19
-  activeFrames: 3
-  recoveryFrames: 59
+  activeFrames: 4
+  recoveryFrames: 58
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -12054,10 +12054,10 @@ MonoBehaviour:
     forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 0
+    stageReactionsToggle: 1
     overrideEventsToggle: 1
     hitConditionsToggle: 1
-    pullInToggle: 0
+    pullInToggle: 1
     hurtBoxesToggle: 1
     wallBounceToggle: 0
     groundBounceToggle: 0

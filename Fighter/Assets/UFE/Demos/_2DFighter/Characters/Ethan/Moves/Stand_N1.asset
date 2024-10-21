@@ -4045,10 +4045,10 @@ MonoBehaviour:
     forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
     hitConditionsToggle: 0
-    pullInToggle: 0
+    pullInToggle: 1
     hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
@@ -4190,11 +4190,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 7749998592
+        _serializedValue: 7676189696
       y:
-        _serializedValue: 16583836672
+        _serializedValue: 16650010624
       z:
-        _serializedValue: 2306820096
+        _serializedValue: 2001232896
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

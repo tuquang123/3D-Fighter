@@ -3797,7 +3797,7 @@ MonoBehaviour:
     rotation: {x: 6.0000005, y: 284, z: 357.3}
     castingFrame: 0
     _duration:
-      _serializedValue: 9019430912
+      _serializedValue: 10307921920
     fieldOfView: 5
     camSpeed: 2
     freezePhysics: 0

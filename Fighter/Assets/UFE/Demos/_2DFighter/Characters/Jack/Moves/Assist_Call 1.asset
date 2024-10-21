@@ -6236,7 +6236,7 @@ MonoBehaviour:
   characterAssist:
   - _spawnPosition:
       x:
-        _serializedValue: -42949672960
+        _serializedValue: 0
       y:
         _serializedValue: 0
       z:

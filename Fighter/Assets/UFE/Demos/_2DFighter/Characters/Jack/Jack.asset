@@ -24,8 +24,8 @@ MonoBehaviour:
   height: 168
   age: 25
   bloodType: Unknown
-  lifePoints: 18000
-  maxGaugePoints: 50
+  lifePoints: 15000
+  maxGaugePoints: 100
   characterPrefabStorage: 0
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   prefabResourcePath: _2DFighter\Characters\Ethan
@@ -34,8 +34,8 @@ MonoBehaviour:
     characterPrefabStorage: 0
     prefab: {fileID: 162860, guid: e31e90d947e4c2a49b294642cb4eec74, type: 3}
     prefabResourcePath: _2DFighter\Characters\Ethan
-    enableColorMask: 1
-    colorMask: {r: 0.22264141, g: 0.20234586, b: 0.19953711, a: 0}
+    enableColorMask: 0
+    colorMask: {r: 1, g: 1, b: 1, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -54,9 +54,9 @@ MonoBehaviour:
       _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 128849018880
+      _serializedValue: 137438953472
     _moveBackSpeed:
-      _serializedValue: 128849018880
+      _serializedValue: 150323855360
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1
@@ -79,11 +79,11 @@ MonoBehaviour:
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 1632087572480
+      _serializedValue: 1288490188800
     jumpDelay: 5
     landingDelay: 7
     _groundCollisionMass:
-      _serializedValue: 8589934592
+      _serializedValue: 0
   headLook:
     enabled: 0
     segments:
@@ -116,7 +116,7 @@ MonoBehaviour:
     crouchButton: 3
   hideGauges: 00000000000000000000
   _executionTiming:
-    _serializedValue: 858993472
+    _serializedValue: 429496736
   possibleAirMoves: 10
   _blendingTime:
     _serializedValue: 85899344

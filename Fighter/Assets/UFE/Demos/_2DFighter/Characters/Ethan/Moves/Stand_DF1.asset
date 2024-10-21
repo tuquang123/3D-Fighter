@@ -4283,8 +4283,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 36
   startUpFrames: 14
-  activeFrames: 3
-  recoveryFrames: 19
+  activeFrames: 4
+  recoveryFrames: 18
   applyRootMotion: 1
   lockXMotion: 0
   lockYMotion: 0
@@ -4386,7 +4386,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 22
-    activeFramesEnds: 36
+    activeFramesEnds: 35
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1

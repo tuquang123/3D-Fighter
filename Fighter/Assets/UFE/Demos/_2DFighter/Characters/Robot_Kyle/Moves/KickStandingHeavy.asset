@@ -4108,8 +4108,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 29
   startUpFrames: 11
-  activeFrames: 5
-  recoveryFrames: 13
+  activeFrames: 6
+  recoveryFrames: 12
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -4135,9 +4135,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 08000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -4151,7 +4151,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 0
   previousMoves: []
@@ -4473,17 +4473,17 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
+    hitStunOptionsToggle: 1
     forceOptionsToggle: 1
     opponentForceToggle: 1
-    selfForceToggle: 0
+    selfForceToggle: 1
     stageReactionsToggle: 1
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
-    hurtBoxesToggle: 0
-    wallBounceToggle: 0
-    groundBounceToggle: 0
+    hurtBoxesToggle: 1
+    wallBounceToggle: 1
+    groundBounceToggle: 1
     hurtBoxes:
     - bodyPart: 15
       followXBounds: 0

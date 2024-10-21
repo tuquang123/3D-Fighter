@@ -4373,7 +4373,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 22
-    activeFramesEnds: 36
+    activeFramesEnds: 35
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4652,7 +4652,7 @@ MonoBehaviour:
     selfForceToggle: 1
     stageReactionsToggle: 0
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 0
     wallBounceToggle: 0

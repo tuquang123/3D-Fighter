@@ -3159,7 +3159,7 @@ MonoBehaviour:
       stunned: 0
       resetStunValue: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0

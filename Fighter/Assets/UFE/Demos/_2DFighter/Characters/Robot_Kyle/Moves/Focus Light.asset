@@ -9328,8 +9328,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 63
   startUpFrames: 4
-  activeFrames: 3
-  recoveryFrames: 56
+  activeFrames: 4
+  recoveryFrames: 55
   applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
@@ -9418,7 +9418,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 1
-    activeFramesEnds: 63
+    activeFramesEnds: 62
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -9843,11 +9843,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -10570127360
+        _serializedValue: -13026086912
       y:
-        _serializedValue: 26681266176
+        _serializedValue: 23362254848
       z:
-        _serializedValue: -658859008
+        _serializedValue: -1426307072
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts:

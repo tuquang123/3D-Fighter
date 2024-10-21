@@ -3765,7 +3765,7 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 33
+    activeFramesBegins: 15
     activeFramesEnds: 79
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
@@ -3810,7 +3810,33 @@ MonoBehaviour:
     - {fileID: 11400000}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
-    counterMoveToggle: 1
+    counterMoveToggle: 0
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 0
+    activeFramesEnds: 79
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: de6efe6b012e479479e62095c4a87a1a, type: 2}
+    - {fileID: 11400000, guid: f37780ddab2eb1846ae302d98c1a7e17, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -3842,7 +3868,19 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 0
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 64424509440
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -3861,7 +3899,7 @@ MonoBehaviour:
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 1
+    fixRotation: 0
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -3870,15 +3908,15 @@ MonoBehaviour:
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 1
+    allowMultiHit: 0
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 1
-    resetCrumples: 1
+    resetPreviousHitStun: 0
+    resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
     hitEffects:
@@ -3926,14 +3964,14 @@ MonoBehaviour:
       editorToggle: 0
     overrideEffectSpawnPoint: 0
     spawnPoint: 1
-    overrideHitAnimationBlend: 1
+    overrideHitAnimationBlend: 0
     _newHitBlendingIn:
       _serializedValue: 0
     overrideJuggleWeight: 0
     _newJuggleWeight:
-      _serializedValue: 0
-    overrideAirRecoveryType: 0
-    newAirRecoveryType: 0
+      _serializedValue: 42949672960
+    overrideAirRecoveryType: 1
+    newAirRecoveryType: 2
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
@@ -3959,22 +3997,22 @@ MonoBehaviour:
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
-    applyDifferentAirForce: 0
+    applyDifferentAirForce: 1
     applyDifferentBlockForce: 0
     applyDifferentSelfAirForce: 0
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 21474836480
       y:
         _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 0
+        _serializedValue: 21474836480
       y:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -4065,12 +4103,12 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0
-    overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    overrideEventsToggle: 1
+    hitConditionsToggle: 1
     pullInToggle: 1
     hurtBoxesToggle: 1
     wallBounceToggle: 0
@@ -4091,45 +4129,45 @@ MonoBehaviour:
         _serializedValue: 2147483648
       _rect:
         _x:
-          _serializedValue: -22548578304
+          _serializedValue: -7773890560
         _y:
-          _serializedValue: -6356551680
+          _serializedValue: -8504035328
         topRight:
           x:
-            _serializedValue: 8890583040
+            _serializedValue: 17222819840
           y:
-            _serializedValue: -6356551680
+            _serializedValue: -8504035328
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: -22548578304
+            _serializedValue: -7773890560
           y:
-            _serializedValue: -6356551680
+            _serializedValue: -8504035328
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 8890583040
+            _serializedValue: 17222819840
           y:
-            _serializedValue: 18897856512
+            _serializedValue: 28819228672
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: -22548578304
+            _serializedValue: -7773890560
           y:
-            _serializedValue: 18897856512
+            _serializedValue: 28819228672
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 31439161344
+          _serializedValue: 24996710400
         height:
-          _serializedValue: 25254408192
+          _serializedValue: 37323264000
         xMax:
-          _serializedValue: 8890583040
+          _serializedValue: 17222819840
         yMax:
-          _serializedValue: 18897856512
+          _serializedValue: 28819228672
       shape: 1
       type: 0
   blockableArea:
@@ -4213,11 +4251,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 8181796864
+        _serializedValue: 8304875520
       y:
-        _serializedValue: 5217570816
+        _serializedValue: 5655013376
       z:
-        _serializedValue: 23091011584
+        _serializedValue: 23218751488
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

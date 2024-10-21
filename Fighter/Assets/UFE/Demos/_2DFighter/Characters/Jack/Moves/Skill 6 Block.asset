@@ -6897,16 +6897,16 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 30
-    activeFramesEnds: 80
+    activeFramesBegins: 0
+    activeFramesEnds: 118
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
     anyHitStrength: 0
     hitStrength: 0
     anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
+    hitBoxType: 1
+    anyHitType: 0
     hitType: 0
     ignoreInputs: 1
     ignorePlayerConditions: 1
@@ -6979,7 +6979,7 @@ MonoBehaviour:
       editorToggle: 0
       prefab: {fileID: 5195822479652735889, guid: 7873a861f37413f43a5ad4fe304bca23,
         type: 3}
-      duration: 0.8
+      duration: 0.3
       stick: 0
       destroyOnMoveOver: 0
       followRotation: 0
@@ -6987,7 +6987,7 @@ MonoBehaviour:
       mirrorOn2PSide: 0
       overrideRotation: 1
       initialRotation: {x: 0, y: 0, z: 0}
-      positionOffSet: {x: 0, y: 2.5, z: 0}
+      positionOffSet: {x: 0, y: 3, z: 0}
       bodyPart: 1
       hitBoxDefinitionIndex: 0
   appliedForces: []

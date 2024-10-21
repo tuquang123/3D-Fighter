@@ -3645,10 +3645,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 110194080
-    clip: {fileID: 7400000, guid: 43b4af0f51fef6c47af3a739b67523dd, type: 2}
+    clip: {fileID: 7400000, guid: e2d9a2033e743f448b03ad6b396bc8a8, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2075900928
+      _serializedValue: 3722305280
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 22
+  totalFrames: 34
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 30
@@ -3686,11 +3686,11 @@ MonoBehaviour:
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 0
-  overrideBlendingOut: 0
+  overrideBlendingOut: 1
   _blendingIn:
     _serializedValue: 429496736
   _blendingOut:
-    _serializedValue: 429496736
+    _serializedValue: 1288490240
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
@@ -3840,7 +3840,7 @@ MonoBehaviour:
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: -214748364800
+        _serializedValue: -193273528320
       y:
         _serializedValue: 0
       z:

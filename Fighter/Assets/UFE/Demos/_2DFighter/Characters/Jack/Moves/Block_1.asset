@@ -3826,7 +3826,7 @@ MonoBehaviour:
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 1
+    fixRotation: 0
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -3841,8 +3841,8 @@ MonoBehaviour:
       possibleMoveStates: []
       basicMovesToggle: 0
       statesToggle: 0
-    downHit: 0
-    resetPreviousHitStun: 1
+    downHit: 1
+    resetPreviousHitStun: 0
     resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
@@ -3903,11 +3903,11 @@ MonoBehaviour:
     overrideHitAnimation: 0
     newHitAnimation: 27
     hitStrength: 0
-    hitStunType: 1
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 257698037760
+      _serializedValue: 4294967296
     _hitStunOnBlock:
-      _serializedValue: 257698037760
+      _serializedValue: 4294967296
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 1
@@ -3915,13 +3915,13 @@ MonoBehaviour:
     _damageOnHit:
       _serializedValue: 3435973836800
     _minDamageOnHit:
-      _serializedValue: 0
+      _serializedValue: 3435973836800
     _damageOnBlock:
       _serializedValue: 3435973836800
     doesntKill: 0
-    hitType: 0
-    resetPreviousHorizontalPush: 1
-    resetPreviousVerticalPush: 1
+    hitType: 1
+    resetPreviousHorizontalPush: 0
+    resetPreviousVerticalPush: 0
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
     applyDifferentAirForce: 0
@@ -3973,8 +3973,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 1
-    groundBounce: 1
+    cornerPush: 0
+    groundBounce: 0
     overrideForcesOnGroundBounce: 0
     resetGroundBounceHorizontalPush: 0
     resetGroundBounceVerticalPush: 0
@@ -4035,7 +4035,7 @@ MonoBehaviour:
     selfForceToggle: 1
     stageReactionsToggle: 1
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 1
     hurtBoxesToggle: 0
     wallBounceToggle: 0
@@ -4100,7 +4100,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 20
+    activeFramesEnds: 19
     bodyPart: 8
     hitBoxDefinitionIndex: 0
     shape: 1

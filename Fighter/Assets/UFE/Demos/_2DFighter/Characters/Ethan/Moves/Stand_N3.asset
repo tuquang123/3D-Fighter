@@ -6824,8 +6824,8 @@ MonoBehaviour:
   animSpeedKeyFrame: []
   totalFrames: 57
   startUpFrames: 17
-  activeFrames: 9
-  recoveryFrames: 31
+  activeFrames: 10
+  recoveryFrames: 30
   applyRootMotion: 1
   lockXMotion: 0
   lockYMotion: 0
@@ -7184,16 +7184,16 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
-    hitConditionsToggle: 0
-    pullInToggle: 0
-    hurtBoxesToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
+    hitConditionsToggle: 1
+    pullInToggle: 1
+    hurtBoxesToggle: 1
     wallBounceToggle: 1
     groundBounceToggle: 0
     hurtBoxes:
@@ -7334,11 +7334,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -5667563520
+        _serializedValue: 14695508992
       y:
-        _serializedValue: 4604026880
+        _serializedValue: 20091478016
       z:
-        _serializedValue: 6185033728
+        _serializedValue: 9824940032
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

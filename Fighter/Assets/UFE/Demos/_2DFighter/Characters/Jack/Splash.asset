@@ -220,8 +220,8 @@ MonoBehaviour:
         showStoryInEditor: 0
   fps: 60
   _gameSpeed:
-    _serializedValue: 4294967296
-  executionBufferTime: 60
+    _serializedValue: 4724464128
+  executionBufferTime: 120
   executionBufferType: 0
   plinkingDelay: 1
   _preloadingTime:
@@ -230,7 +230,7 @@ MonoBehaviour:
   preloadHitEffects: 1
   warmAllShaders: 1
   _gravity:
-    _serializedValue: 1717986944
+    _serializedValue: 2147483648
   detect3D_Hits: 0
   lockZAxis: 1
   runInBackground: 1
@@ -336,7 +336,7 @@ MonoBehaviour:
     _mirrorBlending:
       _serializedValue: 171798688
   roundOptions:
-    totalRounds: 3
+    totalRounds: 1
     hasTimer: 1
     _timer:
       _serializedValue: 425201762304
@@ -375,7 +375,7 @@ MonoBehaviour:
     _showMenuDelay:
       _serializedValue: 15032385536
     _newRoundDelay:
-      _serializedValue: 4294967296
+      _serializedValue: 6442450944
     _slowMoTimer:
       _serializedValue: 12884901888
     _slowMoSpeed:
@@ -430,26 +430,26 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
   comboOptions:
     comboDisplayMode: 0
-    hitStunDeterioration: 1
-    damageDeterioration: 2
+    hitStunDeterioration: 5
+    damageDeterioration: 1
     airJuggleDeterioration: 1
-    _minHitStun: 1
+    _minHitStun: 30
     _minDamage:
       _serializedValue: 21474836480
     _minPushForce:
-      _serializedValue: 85899345920
-    maxConsecutiveCrumple: 3
-    airJuggleDeteriorationType: 1
+      _serializedValue: 42949672960
+    maxConsecutiveCrumple: 10
+    airJuggleDeteriorationType: 0
     neverAirRecover: 1
     airRecoveryType: 2
     resetFallingForceOnHit: 1
     maxCombo: 99
     _knockBackMinForce:
-      _serializedValue: 42949672960
+      _serializedValue: 85899345920
     neverCornerPush: 0
     fixJuggleWeight: 1
     _juggleWeight:
-      _serializedValue: 1288490188800
+      _serializedValue: 858993459200
   blockOptions:
     blockType: 0
     allowAirBlock: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
   knockDownOptions:
     air:
       _knockedOutTime:
-        _serializedValue: 1288490240
+        _serializedValue: 429496736
       _standUpTime:
-        _serializedValue: 1288490240
+        _serializedValue: 429496736
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -536,9 +536,9 @@ MonoBehaviour:
         _serializedValue: 0
     high:
       _knockedOutTime:
-        _serializedValue: 2576980480
+        _serializedValue: 644245120
       _standUpTime:
-        _serializedValue: 2147483648
+        _serializedValue: 644245120
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -559,9 +559,9 @@ MonoBehaviour:
         _serializedValue: 0
     highLow:
       _knockedOutTime:
-        _serializedValue: 1717986944
+        _serializedValue: 429496736
       _standUpTime:
-        _serializedValue: 2147483648
+        _serializedValue: 429496736
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -582,9 +582,9 @@ MonoBehaviour:
         _serializedValue: 0
     sweep:
       _knockedOutTime:
-        _serializedValue: 2576980480
+        _serializedValue: 429496736
       _standUpTime:
-        _serializedValue: 1717986944
+        _serializedValue: 429496736
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 1
@@ -650,7 +650,7 @@ MonoBehaviour:
       maxDelayedStandTime:
         _serializedValue: 0
   hitOptions:
-    resetAnimationOnHit: 1
+    resetAnimationOnHit: 0
     weakHit:
       hitParticle: {fileID: 194664, guid: b71a09eefd747c94787f6bc98149a21d, type: 3}
       killTime: 0.6
@@ -671,49 +671,49 @@ MonoBehaviour:
         _serializedValue: 2576980480
       _shakeCameraDensity:
         _serializedValue: 3865470464
-      editorToggle: 0
+      editorToggle: 1
     mediumHit:
       hitParticle: {fileID: 109728, guid: 9e918342d2a8f7842a691dff3f82f043, type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
       spawnPoint: 1
       _freezingTime:
-        _serializedValue: 515396064
+        _serializedValue: 429496736
       _animationSpeed:
         _serializedValue: 0
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 515396064
+        _serializedValue: 429496736
       mirrorOn2PSide: 1
-      shakeCharacterOnHit: 0
+      shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
         _serializedValue: 3435973888
       _shakeCameraDensity:
         _serializedValue: 5153960960
-      editorToggle: 0
+      editorToggle: 1
     heavyHit:
       hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 2ffc3ee185d024740bdafff00742a713, type: 3}
       spawnPoint: 1
       _freezingTime:
-        _serializedValue: 644245120
+        _serializedValue: 858993472
       _animationSpeed:
-        _serializedValue: 0
+        _serializedValue: 214748364800
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 644245120
-      mirrorOn2PSide: 0
-      shakeCharacterOnHit: 0
+        _serializedValue: 858993472
+      mirrorOn2PSide: 1
+      shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
         _serializedValue: 5153960960
       _shakeCameraDensity:
         _serializedValue: 7730940928
-      editorToggle: 0
+      editorToggle: 1
     crumpleHit:
       hitParticle: {fileID: 1459499847029934, guid: e78df5c3545b7324991134d6f0eb6528,
         type: 3}
@@ -881,7 +881,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -2058,9 +2058,9 @@ MonoBehaviour:
       button: 0
       executionOnly: 0
   aiOptions:
-    engine: 1
-    attackWhenEnemyIsDown: 0
-    moveWhenEnemyIsDown: 0
+    engine: 0
+    attackWhenEnemyIsDown: 1
+    moveWhenEnemyIsDown: 1
     inputFrequency: 1
     behaviourToggle: 0
     distanceBehaviour:

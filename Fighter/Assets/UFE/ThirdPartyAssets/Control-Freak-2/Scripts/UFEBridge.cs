@@ -26,15 +26,17 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	{
 	private InputRig rig;
 	// -----------------
-	override public void Init()
+	public override void Init()
 		{
-		this.rig = this.GetComponentInChildren<InputRig>();
+		rig = GetComponentInChildren<InputRig>();
+		
 		UFE.OnMove += OnMovePerformed;
 		UFE.OnGameBegin += OnInitAbility;
+		UFE.OnGameEnds += DeActivePanel;
 
 
 #if UNITY_EDITOR
-		if (this.rig == null)
+		if (rig == null)
 			{
 			Debug.LogError("UFE Bridge [" + this.name + "] is missing an Input Rig!!");
 			}
@@ -42,6 +44,11 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	
 		CF2Input.activeRig = this.rig;
 		}
+
+	private void DeActivePanel(ControlsScript winner, ControlsScript loser)
+	{
+		root.SetActive(false);
+	}
 
 	public DataBtn dataBtn1;
 	
@@ -52,6 +59,8 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	public DataSkill dataSkillJack;
 	
 	public List<AbilityUI> imagesIconJacAbilityUis;
+	
+	public GameObject root;
 
 	void Awake()
 	{
@@ -63,9 +72,12 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	{
 		if (move == null) return;
 
-		HandleMove(dataBtn1, move);
-		HandleMove(dataBtn2, move);
-		HandleMove(dataBtn3, move);
+		if (player.playerNum == 1)
+		{
+			HandleMove(dataBtn1, move);
+			HandleMove(dataBtn2, move);
+			HandleMove(dataBtn3, move);
+		}
 	}
 	
 	void HandleMove(DataBtn dataBtn, MoveInfo move)
@@ -89,6 +101,8 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	{
 		if (player1.myInfo.characterName == "Jack")
 		{
+			root.SetActive(true);
+			
 			var data = dataSkillJack.dataAbilities;
 			
 			for (int i = 0; i < imagesIconJacAbilityUis.Count; i++)
@@ -102,6 +116,7 @@ public class UFEBridge : UFE3D.InputTouchControllerBridge
 	{
 		UFE.OnMove -= OnMovePerformed;
 		UFE.OnGameBegin -= OnInitAbility;
+		UFE.OnGameEnds -= DeActivePanel;
 	}
 
 	// --------------

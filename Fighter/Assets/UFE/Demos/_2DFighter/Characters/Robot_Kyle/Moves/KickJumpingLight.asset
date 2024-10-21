@@ -4431,9 +4431,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 07000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -4521,7 +4521,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 59
+    activeFramesEnds: 58
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4538,7 +4538,7 @@ MonoBehaviour:
     linkableMoves:
     - {fileID: 11400000, guid: 5de776f961c4bd44386c4a3132766cfb, type: 2}
     linkableMovesToggle: 1
-    hitConfirmToggle: 0
+    hitConfirmToggle: 1
     counterMoveToggle: 0
   gauges:
   - castingFrame: 0
@@ -4801,10 +4801,10 @@ MonoBehaviour:
     forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
     hitConditionsToggle: 1
-    pullInToggle: 0
+    pullInToggle: 1
     hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0
