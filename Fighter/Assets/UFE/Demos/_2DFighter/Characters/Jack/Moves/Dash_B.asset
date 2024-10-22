@@ -3645,15 +3645,15 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 110194080
-    clip: {fileID: 7400000, guid: e2d9a2033e743f448b03ad6b396bc8a8, type: 3}
+    clip: {fileID: 7400000, guid: 139114660e2333d4ca4b73aed8dc92e7, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 3722305280
+      _serializedValue: 3006477312
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
     _serializedValue: 6442450944
-  wrapMode: 0
+  wrapMode: 1
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: Dash_BB
   description: 
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 34
+  totalFrames: 23
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 30
@@ -3686,7 +3686,7 @@ MonoBehaviour:
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 0
-  overrideBlendingOut: 1
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 429496736
   _blendingOut:
@@ -3840,7 +3840,7 @@ MonoBehaviour:
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: -193273528320
+        _serializedValue: -214748364800
       y:
         _serializedValue: 0
       z:
