@@ -6847,7 +6847,7 @@ MonoBehaviour:
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
-    onPressExecution: 1
+    onPressExecution: 0
     buttonSequence: 
     buttonExecution: 0c000000
     editorToggle: 1
@@ -6905,9 +6905,41 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks: []
+  frameLinks:
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 50
+    activeFramesEnds: 59
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 5ca1fc7b63bc7934994ab7877942561e, type: 2}
+    - {fileID: 11400000, guid: 6838698966b2c0a4eae6ce8d53b4652f, type: 2}
+    - {fileID: 11400000, guid: 84a73dfe6855ff04da6d5d3e232f4af6, type: 2}
+    - {fileID: 11400000, guid: 9a95ad4053cdea84784811dcc803155d, type: 2}
+    - {fileID: 11400000, guid: 3fbff94a1bc757a48bba81aaaab82d30, type: 2}
+    - {fileID: 11400000, guid: 0f2e7074910ea63409aec17f22f7fadd, type: 2}
+    - {fileID: 11400000, guid: de6efe6b012e479479e62095c4a87a1a, type: 2}
+    - {fileID: 11400000, guid: f37780ddab2eb1846ae302d98c1a7e17, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 1
+    counterMoveToggle: 0
   gauges:
-  - castingFrame: 1
+  - castingFrame: 0
     targetGauge: 1
     startDrainingGauge: 0
     inhibitGainWhileDraining: 0
@@ -6917,9 +6949,9 @@ MonoBehaviour:
     _totalDrain:
       _serializedValue: 0
     _gaugeRequired:
-      _serializedValue: 429496729600
+      _serializedValue: 0
     _gaugeUsage:
-      _serializedValue: 429496729600
+      _serializedValue: 0
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
@@ -6931,7 +6963,7 @@ MonoBehaviour:
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 42949672960
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -6942,7 +6974,7 @@ MonoBehaviour:
       editorToggle: 0
       prefab: {fileID: 4284519113022463278, guid: 22b08f3b790d2b44190ce093756fabd5,
         type: 3}
-      duration: 7
+      duration: 6.5
       stick: 0
       destroyOnMoveOver: 0
       followRotation: 0
@@ -7079,19 +7111,7 @@ MonoBehaviour:
       positionOffSet: {x: 0, y: -1, z: 0}
       bodyPart: 9
       hitBoxDefinitionIndex: 0
-  appliedForces:
-  - castingFrame: 0
-    resetPreviousVertical: 1
-    resetPreviousHorizontal: 1
-    affectAssists: 0
-    affectCharacter: 1
-    _force:
-      x:
-        _serializedValue: 171798691840
-      y:
-        _serializedValue: 0
-      z:
-        _serializedValue: 0
+  appliedForces: []
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -7102,26 +7122,7 @@ MonoBehaviour:
   - castingFrame: 8
     alert: Break
   stanceChanges: []
-  cameraMovements:
-  - cinematicType: 0
-    animationClip: {fileID: 0}
-    prefab: {fileID: 0}
-    camAnimationSpeed: 1
-    blendSpeed: 100
-    gameObjectPosition: {x: 0, y: 0, z: 0}
-    position: {x: 4, y: 5, z: -46}
-    rotation: {x: 0, y: 0, z: 0}
-    castingFrame: 0
-    _duration:
-      _serializedValue: 5583457280
-    fieldOfView: 10
-    camSpeed: 1
-    freezePhysics: 1
-    _myAnimationSpeed:
-      _serializedValue: 128849018880
-    _opAnimationSpeed:
-      _serializedValue: 128849018880
-    previewToggle: 0
+  cameraMovements: []
   hits:
   - activeFramesBegin: 29
     activeFramesEnds: 36
@@ -7333,7 +7334,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -7612,10 +7613,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
+    hitStunOptionsToggle: 0
+    forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0
@@ -7891,7 +7892,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
@@ -8170,7 +8171,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1

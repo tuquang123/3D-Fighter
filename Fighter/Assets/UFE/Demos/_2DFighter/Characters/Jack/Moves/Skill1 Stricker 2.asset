@@ -3839,7 +3839,7 @@ MonoBehaviour:
     counterMoveToggle: 0
   gauges:
   - castingFrame: 0
-    targetGauge: 0
+    targetGauge: 1
     startDrainingGauge: 0
     inhibitGainWhileDraining: 0
     stopDrainingGauge: 0
@@ -3862,7 +3862,7 @@ MonoBehaviour:
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0

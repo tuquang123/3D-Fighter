@@ -3763,7 +3763,7 @@ MonoBehaviour:
   frameLinks: []
   gauges:
   - castingFrame: 0
-    targetGauge: 0
+    targetGauge: 1
     startDrainingGauge: 0
     inhibitGainWhileDraining: 0
     stopDrainingGauge: 0

@@ -6935,7 +6935,8 @@ MonoBehaviour:
     - {fileID: 11400000}
     - {fileID: 11400000, guid: de6efe6b012e479479e62095c4a87a1a, type: 2}
     - {fileID: 11400000, guid: f37780ddab2eb1846ae302d98c1a7e17, type: 2}
-    linkableMovesToggle: 0
+    - {fileID: 11400000, guid: 2ef2e0580aa1c384c893dbe17d44b917, type: 2}
+    linkableMovesToggle: 1
     hitConfirmToggle: 1
     counterMoveToggle: 0
   gauges:
@@ -6983,7 +6984,7 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 85899345920
+      _serializedValue: 64424509440
     _gaugeGainOnBlock:
       _serializedValue: 0
     _opGaugeGainOnBlock:
@@ -6991,7 +6992,7 @@ MonoBehaviour:
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 64424509440
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -7160,7 +7161,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 171798691840
+        _serializedValue: 107374182400
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -7248,7 +7249,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
@@ -7527,7 +7528,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     forceOptionsToggle: 1
@@ -7718,7 +7719,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 128849018880
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -7806,7 +7807,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 1

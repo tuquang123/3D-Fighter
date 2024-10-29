@@ -6935,7 +6935,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: de6efe6b012e479479e62095c4a87a1a, type: 2}
     - {fileID: 11400000, guid: f37780ddab2eb1846ae302d98c1a7e17, type: 2}
     - {fileID: 11400000}
-    linkableMovesToggle: 0
+    - {fileID: 11400000, guid: 2ef2e0580aa1c384c893dbe17d44b917, type: 2}
+    linkableMovesToggle: 1
     hitConfirmToggle: 1
     counterMoveToggle: 0
   gauges:
@@ -6983,7 +6984,7 @@ MonoBehaviour:
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:
-      _serializedValue: 85899345920
+      _serializedValue: 21474836480
     _gaugeGainOnBlock:
       _serializedValue: 0
     _opGaugeGainOnBlock:
@@ -6991,7 +6992,7 @@ MonoBehaviour:
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 0
+      _serializedValue: 21474836480
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -7248,15 +7249,15 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
-    hitStunOptionsToggle: 1
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
     selfForceToggle: 1
-    stageReactionsToggle: 1
-    overrideEventsToggle: 1
-    hitConditionsToggle: 1
-    pullInToggle: 1
+    stageReactionsToggle: 0
+    overrideEventsToggle: 0
+    hitConditionsToggle: 0
+    pullInToggle: 0
     hurtBoxesToggle: 0
     wallBounceToggle: 0
     groundBounceToggle: 0

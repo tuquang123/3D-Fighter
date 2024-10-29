@@ -220,10 +220,10 @@ MonoBehaviour:
         showStoryInEditor: 0
   fps: 60
   _gameSpeed:
-    _serializedValue: 4724464128
-  executionBufferTime: 120
+    _serializedValue: 4294967296
+  executionBufferTime: 60
   executionBufferType: 0
-  plinkingDelay: 1
+  plinkingDelay: 3
   _preloadingTime:
     _serializedValue: 4294967296
   preloadStage: 1
@@ -513,9 +513,9 @@ MonoBehaviour:
   knockDownOptions:
     air:
       _knockedOutTime:
-        _serializedValue: 429496736
+        _serializedValue: 644245120
       _standUpTime:
-        _serializedValue: 429496736
+        _serializedValue: 858993472
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -536,9 +536,9 @@ MonoBehaviour:
         _serializedValue: 0
     high:
       _knockedOutTime:
-        _serializedValue: 644245120
+        _serializedValue: 1288490240
       _standUpTime:
-        _serializedValue: 644245120
+        _serializedValue: 858993472
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -559,9 +559,9 @@ MonoBehaviour:
         _serializedValue: 0
     highLow:
       _knockedOutTime:
-        _serializedValue: 429496736
+        _serializedValue: 858993472
       _standUpTime:
-        _serializedValue: 429496736
+        _serializedValue: 858993472
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 1
       editorToggle: 1
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -2164,19 +2164,19 @@ MonoBehaviour:
       overrideComboEfficiency: 1
       comboEfficiency: 1
       startupBehavior: 4
-    selectedDifficultyLevel: 2
+    selectedDifficultyLevel: 0
     selectedDifficulty:
-      difficultyLevel: 2
+      difficultyLevel: 0
       overrideTimeBetweenDecisions: 1
-      timeBetweenDecisions: 0
+      timeBetweenDecisions: 0.4
       overrideTimeBetweenActions: 1
-      timeBetweenActions: 0.05
+      timeBetweenActions: 0.1
       overrideAggressiveness: 1
-      aggressiveness: 0.4
-      overrideRuleCompliance: 1
+      aggressiveness: 0.1
+      overrideRuleCompliance: 0
       ruleCompliance: 0.9
       overrideComboEfficiency: 1
-      comboEfficiency: 1
+      comboEfficiency: 0.1
       startupBehavior: 3
   networkOptions:
     forceAnimationControl: 1

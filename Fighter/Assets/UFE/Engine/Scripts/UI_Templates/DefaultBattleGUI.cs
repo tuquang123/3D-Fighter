@@ -3,7 +3,9 @@ using UnityEngine.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using FPLibrary;
+using TMPro;
 using UFE3D;
 
 public class DefaultBattleGUI : BattleGUI{
@@ -12,8 +14,8 @@ public class DefaultBattleGUI : BattleGUI{
 	public class PlayerGUI{
 		public Text name;
 		public Image portrait;
-		public Image lifeBar;
-		public Image[] gauges;
+		public Slider lifeBar;
+		public Slider[] gauges;
 		public Image[] wonRoundsImages;
 		public AlertGUI alert = new AlertGUI();
 	}
@@ -62,6 +64,7 @@ public class DefaultBattleGUI : BattleGUI{
     public UFEScreen pauseScreen;
     public Sprite networkPlayerPointer;
     public float pointerTimer = 4f;
+    public TextMeshProUGUI Mana;
 	#endregion
 
 	#region protected instance properties
@@ -248,11 +251,11 @@ public class DefaultBattleGUI : BattleGUI{
 
 			// Draw the Life Bars and Gauge Meters using the data stored in UFE.config.guiOptions
 			if (this.player1GUI != null && this.player1GUI.lifeBar != null){
-				this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife;
+				this.player1GUI.lifeBar.value = this.player1.targetLife / this.player1.totalLife;
 			}
 			
 			if (this.player2GUI != null && this.player2GUI.lifeBar != null){
-				this.player2GUI.lifeBar.fillAmount = this.player2.targetLife / this.player2.totalLife;
+				this.player2GUI.lifeBar.value = this.player2.targetLife / this.player2.totalLife;
 			}
 
 			if (UFE.config.gameGUI.hasGauge){
@@ -260,14 +263,22 @@ public class DefaultBattleGUI : BattleGUI{
                 {
                     if (this.player1GUI.gauges[i].gameObject.activeInHierarchy)
                     {
-                        this.player1GUI.gauges[i].fillAmount = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
+	                    float gaugePercent = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
+                
+                        int maxMana = 10;
+                
+                        int mana = Mathf.FloorToInt((float)player1.controlsScript.currentGaugesPoints[0] / UFE.config.player1Character.maxGaugePoints * maxMana);
+                
+                        Mana.text = mana.ToString();
+                        
+                        player1GUI.gauges[i].value = gaugePercent;
                     }
                 }
                 for (int i = 0; i < this.player2GUI.gauges.Length; i++)
                 {
                     if (this.player2GUI.gauges[i].gameObject.activeInHierarchy)
                     {
-                        this.player2GUI.gauges[i].fillAmount = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
+                        this.player2GUI.gauges[i].value = (float)player2.controlsScript.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
                     }
                 }
 			}
@@ -491,11 +502,11 @@ public class DefaultBattleGUI : BattleGUI{
 
 		// Set the max and min values for the Life Bars
 		if (this.player1GUI != null && this.player1GUI.lifeBar != null){
-			this.player1GUI.lifeBar.fillAmount = this.player1.targetLife / this.player1.totalLife;
+			this.player1GUI.lifeBar.value = this.player1.targetLife / this.player1.totalLife;
 		}
 		
 		if (this.player2GUI != null && this.player2GUI.lifeBar != null){
-			this.player2GUI.lifeBar.fillAmount = this.player2.targetLife / this.player2.totalLife;
+			this.player2GUI.lifeBar.value = this.player2.targetLife / this.player2.totalLife;
 		}
 
         // Enable Gauge Meters
@@ -523,14 +534,16 @@ public class DefaultBattleGUI : BattleGUI{
             {
                 if (this.player1.controlsScript.myInfo.hideGauges[i]) continue;
                 this.player1GUI.gauges[i].gameObject.SetActive(true);
-                this.player1GUI.gauges[i].fillAmount = (float)cPlayer1.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
+                
+                float gaugePercent = (float)player1.controlsScript.currentGaugesPoints[i] / UFE.config.player1Character.maxGaugePoints;
+                player1GUI.gauges[i].value = gaugePercent;
             }
 
             for (int i = 0; i < this.player2GUI.gauges.Length; i++)
             {
                 if (this.player2.controlsScript.myInfo.hideGauges[i]) continue;
                 this.player2GUI.gauges[i].gameObject.SetActive(true);
-                this.player2GUI.gauges[i].fillAmount = (float)cPlayer2.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
+                this.player2GUI.gauges[i].value = (float)cPlayer2.currentGaugesPoints[i] / UFE.config.player2Character.maxGaugePoints;
             }
 		}
 	}
