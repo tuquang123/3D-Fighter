@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Jack
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: bfa5d77db3eb9b74e836ed8857c331b4, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 7accb1fe28061984e8dab259542b00d3, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 9c3a17dd68e41644991a35353b971498, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 9c3a17dd68e41644991a35353b971498, type: 3}
   characterName: Jack
   gender: 1
   characterDescription: Jack
@@ -32,10 +32,10 @@ MonoBehaviour:
   alternativeCostumes:
   - name: B Jack
     characterPrefabStorage: 0
-    prefab: {fileID: 162860, guid: e31e90d947e4c2a49b294642cb4eec74, type: 3}
+    prefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
     prefabResourcePath: _2DFighter\Characters\Ethan
-    enableColorMask: 0
-    colorMask: {r: 1, g: 1, b: 1, a: 0}
+    enableColorMask: 1
+    colorMask: {r: 0.2679245, g: 0.26438585, b: 0.26438585, a: 0}
   initialPosition:
     x:
       _serializedValue: 0

@@ -3645,10 +3645,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 110194080
-    clip: {fileID: 7400000, guid: c32d21769dd96664fbd0e245cb247bca, type: 3}
+    clip: {fileID: 7400000, guid: 1656a222d03c8b74db420a6de9ad9676, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 4008636416
+      _serializedValue: 4724464128
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 112
+  totalFrames: 132
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 30
@@ -3777,7 +3777,19 @@ MonoBehaviour:
   gauges: []
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 0
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -21474836480
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -3793,14 +3805,14 @@ MonoBehaviour:
     camAnimationSpeed: 1
     blendSpeed: 100
     gameObjectPosition: {x: 0, y: 0, z: 0}
-    position: {x: 44, y: 10.5, z: -11}
-    rotation: {x: 6.0000005, y: 284, z: 357.3}
+    position: {x: 0, y: 4, z: -46}
+    rotation: {x: -0, y: 0, z: 0}
     castingFrame: 0
     _duration:
-      _serializedValue: 10307921920
-    fieldOfView: 5
-    camSpeed: 2
-    freezePhysics: 0
+      _serializedValue: 13743895552
+    fieldOfView: 11
+    camSpeed: 1
+    freezePhysics: 1
     _myAnimationSpeed:
       _serializedValue: 429496729600
     _opAnimationSpeed:

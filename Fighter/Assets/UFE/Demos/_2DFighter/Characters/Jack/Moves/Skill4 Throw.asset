@@ -7265,10 +7265,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 20656684
-    clip: {fileID: 7400000, guid: 1a436aa52e89b8049bdafcd98b98ca6b, type: 3}
+    clip: {fileID: 7400000, guid: fb63dda3b9f133d45bcde0fa0b53d103, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 4294967296
+      _serializedValue: 5726623232
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -7295,7 +7295,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 60
+  totalFrames: 80
   startUpFrames: -1
   activeFrames: 2
   recoveryFrames: 49
@@ -7424,9 +7424,9 @@ MonoBehaviour:
     _totalDrain:
       _serializedValue: 0
     _gaugeRequired:
-      _serializedValue: 150323855360
+      _serializedValue: 171798691840
     _gaugeUsage:
-      _serializedValue: 150323855360
+      _serializedValue: 171798691840
     _gaugeGainOnMiss:
       _serializedValue: 0
     _gaugeGainOnHit:

@@ -6802,7 +6802,7 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 162860, guid: 880858dfd9b1e784e89d45242bf78d2b, type: 3}
   moveName: 6
-  description: 1
+  description: 3
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -6849,7 +6849,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 09000000
+    buttonExecution: 0e000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1

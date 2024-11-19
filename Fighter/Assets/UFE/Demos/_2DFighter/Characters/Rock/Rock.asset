@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  gameplayType: 0
+  profilePictureSmall: {fileID: 2800000, guid: 2343bf11411aa2447a7142dc225bb2b9, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 2343bf11411aa2447a7142dc225bb2b9, type: 3}
+  characterName: Rock
+  gender: 1
+  characterDescription: 'Rock
+
+'
+  selectionAnimation: {fileID: 7400000, guid: 539e40ab39975ad4ab85d6d58237823e, type: 2}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 168
+  age: 22
+  bloodType: Unknown
+  lifePoints: 21000
+  maxGaugePoints: 100
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 140808, guid: e82060d716067544b8281adde59f2d1f, type: 3}
+  prefabResourcePath: _2DFighter\Characters\Ethan
+  alternativeCostumes:
+  - name: Rock
+    characterPrefabStorage: 0
+    prefab: {fileID: 140808, guid: e82060d716067544b8281adde59f2d1f, type: 3}
+    prefabResourcePath: _2DFighter\Characters\Ethan
+    enableColorMask: 1
+    colorMask: {r: 0.2981131, g: 0.28742602, b: 0.28742602, a: 0}
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    _moveForwardSpeed:
+      _serializedValue: 30064771072
+    _moveBackSpeed:
+      _serializedValue: 27917287424
+    _moveSidewaysSpeed:
+      _serializedValue: 17179869184
+    highMovingFriction: 1
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 0
+    pressureSensitiveJump: 0
+    _jumpForce:
+      _serializedValue: 180388626432
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    _jumpDistance:
+      _serializedValue: 51539607552
+    _jumpBackDistance:
+      _serializedValue: 42949672960
+    cumulativeForce: 1
+    multiJumps: 1
+    _weight:
+      _serializedValue: 1632087572480
+    jumpDelay: 5
+    landingDelay: 7
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments:
+    - firstTransform: {fileID: 0}
+      lastTransform: {fileID: 0}
+      bodyPart: 1
+      thresholdAngleDifference: 0
+      bendingMultiplier: 0.5
+      maxAngleDifference: 30
+      maxBendingAngle: 45
+      responsiveness: 4
+    nonAffectedJoints:
+    - joint: {fileID: 0}
+      bodyPart: 4
+      effect: 0.3
+    - joint: {fileID: 0}
+      bodyPart: 5
+      effect: 0.3
+    target: 1
+    effect: 0.8
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+    zAxisMovement: 0
+    disableJump: 1
+    disableCrouch: 1
+    jumpButton: 2
+    crouchButton: 3
+  hideGauges: 00000000000000000000
+  _executionTiming:
+    _serializedValue: 858993472
+  possibleAirMoves: 10
+  _blendingTime:
+    _serializedValue: 85899344
+  animationType: 1
+  avatar: {fileID: 9000000, guid: b69174d668ba02d44b14a084b217670a, type: 3}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 1
+  normalizeAnimationFrames: 0
+  stanceResourcePath:
+  - _2DFighter\MoveSets\Tu
+  moves: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 2f8ac938e7545924bbdc52d6ca979ca3, type: 2}
+    behavior: 4

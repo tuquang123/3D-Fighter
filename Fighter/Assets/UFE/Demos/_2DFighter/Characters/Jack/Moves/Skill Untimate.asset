@@ -6963,7 +6963,7 @@ MonoBehaviour:
     _opGaugeGainOnParry:
       _serializedValue: 0
     _opGaugeGainOnHit:
-      _serializedValue: 42949672960
+      _serializedValue: 0
     DCMove: {fileID: 0}
     DCStance: 0
     editorToggle: 0
@@ -7111,7 +7111,19 @@ MonoBehaviour:
       positionOffSet: {x: 0, y: -1, z: 0}
       bodyPart: 9
       hitBoxDefinitionIndex: 0
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 0
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: 85899345920
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
@@ -7334,7 +7346,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -8450,7 +8462,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
@@ -8729,7 +8741,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 1
@@ -9008,7 +9020,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 1
+    hitToggle: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0

@@ -3859,7 +3859,7 @@ MonoBehaviour:
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: 85899345920
+        _serializedValue: 107374182400
       y:
         _serializedValue: 128849018880
       z:

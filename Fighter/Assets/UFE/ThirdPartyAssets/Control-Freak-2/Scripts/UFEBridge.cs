@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UFE3D;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -42,12 +43,12 @@ namespace ControlFreak2
 			UFE.OnGaugeUpdate += ActiveUntiBtn;
 
 
-#if UNITY_EDITOR
+            #if UNITY_EDITOR
 			if (rig == null)
 			{
 				Debug.LogError("UFE Bridge [" + this.name + "] is missing an Input Rig!!");
 			}
-#endif
+            #endif
 
 			CF2Input.activeRig = this.rig;
 		}
@@ -55,6 +56,7 @@ namespace ControlFreak2
 		private void ActiveUntiBtn(int targetgauge, float newvalue, ControlsScript character)
 		{
 			if (character.playerNum != 1) return;
+			if (character.isAssist)       return;
 			if (character.currentGaugesPoints[1] >= UFE.config.player1Character.maxGaugePoints)
 			{
 				btnUnti.SetActive(true);
@@ -77,8 +79,10 @@ namespace ControlFreak2
 		public DataBtn dataBtn3;
 
 		public DataSkill dataSkillJack;
+		
+		public DataSkill dataSkillRock;
 
-		public List<AbilityUI> imagesIconJacAbilityUis;
+		[FormerlySerializedAs("imagesIconJacAbilityUis")] public List<AbilityUI> imagesIconUIs;
 
 		public GameObject root;
 
@@ -125,9 +129,20 @@ namespace ControlFreak2
 
 				var data = dataSkillJack.dataAbilities;
 
-				for (int i = 0; i < imagesIconJacAbilityUis.Count; i++)
+				for (int i = 0; i < imagesIconUIs.Count; i++)
 				{
-					imagesIconJacAbilityUis[i].UpdateUi(data[i].icon, data[i].frame, data[i].cost);
+					imagesIconUIs[i].UpdateUi(data[i].icon, data[i].frame, data[i].cost);
+				}
+			}
+			if (player1.myInfo.characterName == "Rock")
+			{
+				root.SetActive(true);
+
+				var data = dataSkillRock.dataAbilities;
+
+				for (int i = 0; i < imagesIconUIs.Count; i++)
+				{
+					imagesIconUIs[i].UpdateUi(data[i].icon, data[i].frame, data[i].cost);
 				}
 			}
 		}
