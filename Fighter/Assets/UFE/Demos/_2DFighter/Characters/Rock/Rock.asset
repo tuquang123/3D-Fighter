@@ -130,7 +130,7 @@ MonoBehaviour:
   useAnimationMaps: 1
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _2DFighter\MoveSets\Tu
+  - _2DFighter\MoveSets\Rock
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 2f8ac938e7545924bbdc52d6ca979ca3, type: 2}

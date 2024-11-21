@@ -3991,7 +3991,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 746e8bee787f7654aa6d03901695c4ef,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 746e8bee787f7654aa6d03901695c4ef, type: 3}
@@ -4097,6 +4097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Capes
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8ec8ddc87a6707b42acc9ddd8745a2a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2927530218572802672, guid: 8ec8ddc87a6707b42acc9ddd8745a2a0,
         type: 3}
