@@ -230,7 +230,7 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 2
     activeCharacters:
-    - {fileID: 11400000, guid: 21e42c768f7ab42438235211372300e2, type: 2}
+    - {fileID: 11400000, guid: 2264f894dd3c5a34ebecd9e656f93336, type: 2}
     - {fileID: 11400000, guid: 21e42c768f7ab42438235211372300e2, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}

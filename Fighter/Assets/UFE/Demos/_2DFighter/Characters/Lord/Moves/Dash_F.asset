@@ -3645,10 +3645,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 89074112
-    clip: {fileID: 7400000, guid: af89bb014d906e94cb0aba802755e7dc, type: 2}
+    clip: {fileID: 1827226128182048838, guid: b7bb55301ac0d894484c5b6a00dace6f, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2147483648
+      _serializedValue: 3292808448
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -3676,7 +3676,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 30
+  totalFrames: 46
   startUpFrames: 0
   activeFrames: 1
   recoveryFrames: 2
@@ -3767,7 +3767,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 0
-    activeFramesEnds: 28
+    activeFramesEnds: 23
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     onBlock: 1
     onParry: 1
     activeFramesBegins: 25
-    activeFramesEnds: 29
+    activeFramesEnds: 23
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
