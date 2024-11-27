@@ -6791,10 +6791,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: -124576192
-    clip: {fileID: 7400000, guid: a1122af4932a8554db88a3464df8b93c, type: 3}
+    clip: {fileID: 7400000, guid: 41e1238c229958b46bc0681a32c75f6c, type: 3}
     customHitBoxDefinition: {fileID: 0}
     length:
-      _serializedValue: 2863311616
+      _serializedValue: 6871948288
     bakeSpeed: 1
     hitBoxDefinitionType: 0
   _animationSpeed:
@@ -6822,10 +6822,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 40
-  startUpFrames: 7
+  totalFrames: 96
+  startUpFrames: 43
   activeFrames: 8
-  recoveryFrames: 25
+  recoveryFrames: 45
   applyRootMotion: 1
   lockXMotion: 0
   lockYMotion: 0
@@ -7016,8 +7016,8 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 7
-    activeFramesEnds: 14
+  - activeFramesBegin: 43
+    activeFramesEnds: 50
     hitConfirmType: 0
     throwMove: {fileID: 0}
     techMove: {fileID: 0}
@@ -7226,7 +7226,7 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     hitToggle: 1
-    damageOptionsToggle: 1
+    damageOptionsToggle: 0
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 1
@@ -7235,7 +7235,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 1
-    hurtBoxesToggle: 1
+    hurtBoxesToggle: 0
     wallBounceToggle: 1
     groundBounceToggle: 0
     hurtBoxes:
@@ -7376,11 +7376,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -4220674304
+        _serializedValue: 10261157888
       y:
-        _serializedValue: 2827958016
+        _serializedValue: 20784214016
       z:
-        _serializedValue: 2278261248
+        _serializedValue: 2738217984
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

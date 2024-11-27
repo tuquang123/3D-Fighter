@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Yugi
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 10f6aa8b06972ab4885fa826c0fc8312, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 10f6aa8b06972ab4885fa826c0fc8312, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 0bbdc641e8eae6f4db6b95ac29a0601c, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 0bbdc641e8eae6f4db6b95ac29a0601c, type: 3}
   characterName: Yugi
   gender: 1
   characterDescription: 'Yugi

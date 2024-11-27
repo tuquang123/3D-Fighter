@@ -4,6 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using DamageNumbersPro;
 using FPLibrary;
 using TMPro;
 using UFE3D;
@@ -65,6 +66,7 @@ public class DefaultBattleGUI : BattleGUI{
     public Sprite networkPlayerPointer;
     public float pointerTimer = 4f;
     public TextMeshProUGUI Mana;
+    public DamageNumber damageNumber;
 	#endregion
 
 	#region protected instance properties
@@ -75,6 +77,7 @@ public class DefaultBattleGUI : BattleGUI{
 	protected float player2AlertTimer = 0f;
 	protected float mainAlertTimer = 0f;
 	protected UFEScreen pause = null;
+	
 	#endregion
 
 	#region public instance methods
@@ -85,6 +88,28 @@ public class DefaultBattleGUI : BattleGUI{
 	void Start()
 	{
 		StartCoroutine(RegenerateMana());
+		UFE.OnHit += ShowDameText;
+	}
+
+	private void ShowDameText(HitBox strokeHitBox, MoveInfo move, Hit hitInfo, ControlsScript player)
+	{
+		
+		// Lấy đối tượng bị trúng đòn từ HitBox
+		Transform target = strokeHitBox.position;
+		
+		if(target == null) return;
+		
+		// Tính vị trí spawn trên đầu kẻ địch
+		Vector3 spawnPosition = target.position + Vector3.up * 2f; // Offset 2 đơn vị trên trục Y
+
+		// Spawn damage text tại vị trí đã tính toán
+		var damageText = damageNumber.Spawn(spawnPosition, (int)hitInfo._damageOnHit);
+	}
+
+
+	private void OnDestroy()
+	{
+		UFE.OnHit -= ShowDameText;
 	}
 
 	IEnumerator RegenerateMana()
