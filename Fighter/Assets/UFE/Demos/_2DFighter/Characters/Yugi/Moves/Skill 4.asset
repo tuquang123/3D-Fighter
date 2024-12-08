@@ -6912,8 +6912,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 75
-    activeFramesEnds: 89
+    activeFramesBegins: 33
+    activeFramesEnds: 49
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -6924,18 +6924,18 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 0
-    ignorePlayerConditions: 0
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 922672e9fc2877b45a3888aedf004ea2, type: 2}
-    - {fileID: 11400000, guid: 487f18db849b277449916755056bc20b, type: 2}
-    - {fileID: 11400000, guid: 4237321ddf9a19742a8659a570ff2b6b, type: 2}
-    - {fileID: 11400000, guid: da3d2a7ddb0428d4d8ea8ef4aeea843a, type: 2}
-    - {fileID: 11400000, guid: 9c0b87f67b3f91344b962a06ad2a339d, type: 2}
-    - {fileID: 11400000, guid: e7b3bc9f9805b1943b63e6c450a32e20, type: 2}
-    - {fileID: 11400000, guid: aca4ac6275b299146bc8d880f4189333, type: 2}
+    - {fileID: 11400000, guid: 556ceae36a1a1104b88d24fc944cf51e, type: 2}
+    - {fileID: 11400000, guid: d968a1bcda21f504da0f54db7274e173, type: 2}
+    - {fileID: 11400000, guid: 4e4c9d915bc49164b89075724bfedad6, type: 2}
+    - {fileID: 11400000, guid: c1c27757bf22fe9429a8713d75a9d852, type: 2}
+    - {fileID: 11400000, guid: c4f778531fe5e944689454ee7d91f961, type: 2}
     - {fileID: 11400000}
+    - {fileID: 11400000, guid: a2a5ba93d76198e43a5eec41cb36bf9c, type: 2}
+    - {fileID: 11400000, guid: 3c5b4cabb5cdb164aa449adddebbb3e1, type: 2}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
@@ -6999,7 +6999,7 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 20
+  - castingFrame: 0
     resetPreviousVertical: 1
     resetPreviousHorizontal: 1
     affectAssists: 0
@@ -7038,14 +7038,14 @@ MonoBehaviour:
     forceStand: 0
     fixRotation: 1
     armorBreaker: 0
-    continuousHit: 1
+    continuousHit: 0
     unblockable: 0
     spaceBetweenHits: 4
     groundHit: 1
     crouchingHit: 1
     airHit: 1
     stunHit: 1
-    allowMultiHit: 0
+    allowMultiHit: 1
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -7140,16 +7140,16 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 128849018880
+        _serializedValue: 64424509440
       y:
-        _serializedValue: 128849018880
+        _serializedValue: 150323855360
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       y:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -7237,13 +7237,13 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
+    hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
-    stageReactionsToggle: 1
+    stageReactionsToggle: 0
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0

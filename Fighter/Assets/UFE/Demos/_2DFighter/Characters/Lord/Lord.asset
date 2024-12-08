@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Lord
   m_EditorClassIdentifier: 
   gameplayType: 0
-  profilePictureSmall: {fileID: 2800000, guid: 1c81396f141718b4dbd2f5f2646bd104, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 419cb938471e1af409bca7414004c594, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 733908a9d8b4dcc458b370148dd30411, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 733908a9d8b4dcc458b370148dd30411, type: 3}
   characterName: Lord
   gender: 2
   characterDescription: 'Lord
@@ -26,8 +26,8 @@ MonoBehaviour:
   height: 168
   age: 22
   bloodType: Unknown
-  lifePoints: 21000
-  maxGaugePoints: 100
+  lifePoints: 18000
+  maxGaugePoints: 80
   characterPrefabStorage: 0
   characterPrefab: {fileID: 131680, guid: 11ffba29df14c054aa5a2695b18e9f59, type: 3}
   prefabResourcePath: _2DFighter\Characters\Ethan
@@ -56,9 +56,9 @@ MonoBehaviour:
       _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 30064771072
+      _serializedValue: 137438953472
     _moveBackSpeed:
-      _serializedValue: 27917287424
+      _serializedValue: 150323855360
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1

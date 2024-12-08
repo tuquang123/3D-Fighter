@@ -198,9 +198,9 @@ public class DefaultCharacterSelectionScreen : CharacterSelectionScreen {
 
                         
                         if (characterInfo.characterPrefabStorage == StorageMode.Prefab) {
-                            this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
+                            this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.alternativeCostumes[1].prefab);
                         } else {
-                            this.gameObjectPlayer1 = GameObject.Instantiate(Resources.Load<GameObject>(characterInfo.prefabResourcePath));
+                            this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.alternativeCostumes[1].prefab);
                         }
 						//this.gameObjectPlayer1 = GameObject.Instantiate(characterInfo.characterPrefab);
 						this.gameObjectPlayer1.transform.position = this.positionPlayer1;

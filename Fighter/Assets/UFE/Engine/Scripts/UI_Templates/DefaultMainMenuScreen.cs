@@ -16,6 +16,12 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 
 	public Button buttonNetwork;
 	public Button buttonBluetooth;
+	public GameObject ShopUi;
+
+	public void OpenSHop(bool open)
+	{
+		ShopUi.SetActive(open);
+	}
 	#endregion
 
 	#region public override methods

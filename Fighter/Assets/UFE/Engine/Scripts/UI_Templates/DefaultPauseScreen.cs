@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using UFE3D;
+using UnityEngine.Events;
 
 public class DefaultPauseScreen : PauseScreen{
 	#region public instance fields
@@ -11,13 +12,17 @@ public class DefaultPauseScreen : PauseScreen{
 	#region protected instance fields
 	protected int currentScreen;
 	protected bool confirmationDialogVisible = false;
+
+	public void DeActiveUi()
+	{
+		UFE.FireGameEnds(UFE.GetControlsScript(2),UFE.GetControlsScript(1));
+	}
 	#endregion
 
 	#region public instance methods
 	public virtual void HideBackToMenuConfirmationDialog(){
 		this.HideBackToMenuConfirmationDialog(true);
 	}
-
 	public virtual void HideBackToMenuConfirmationDialog(bool triggerOnShowScreenEvent){
 		if (this.backToMenuConfirmationDialog != null){
 			for (int i = 0; i < this.screens.Length; ++i){

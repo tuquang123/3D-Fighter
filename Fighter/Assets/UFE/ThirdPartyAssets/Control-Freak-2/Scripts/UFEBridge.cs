@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using FPLibrary;
 using UFE3D;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -8,13 +9,21 @@ using Random = UnityEngine.Random;
 
 namespace ControlFreak2
 {
+	public enum TypeSkill
+	{
+		Strike,
+		Break,
+		Block
+	
+	}
 	[Serializable]
 	public class DataAbility
 	{
 		public int cost;
-		public string id;
+		//public string id;
 		public Sprite icon;
-		public Sprite frame;
+		//public Sprite frame;
+		public TypeSkill type;
 	}
 	[Serializable]
 	public class DataBtn
@@ -39,17 +48,10 @@ namespace ControlFreak2
 			UFE.OnMove += OnMovePerformed;
 			UFE.OnGameBegin += OnInitAbility;
 			UFE.OnGameEnds += DeActivePanel;
+			UFE.OnRoundBegins += ActiveRoot;
 
 			UFE.OnGaugeUpdate += ActiveUntiBtn;
-
-
-            #if UNITY_EDITOR
-			if (rig == null)
-			{
-				Debug.LogError("UFE Bridge [" + this.name + "] is missing an Input Rig!!");
-			}
-            #endif
-
+			
 			CF2Input.activeRig = this.rig;
 		}
 
@@ -57,6 +59,16 @@ namespace ControlFreak2
 		{
 			if (character.playerNum != 1) return;
 			if (character.isAssist)       return;
+			
+			for (int i = 0; i < imagesIconUIs.Count; i++)
+			{
+				int mana = Mathf.FloorToInt((float)character.currentGaugesPoints[0] / UFE.config.player1Character.maxGaugePoints * 10);
+				
+				float fill = Mathf.Clamp((float)mana / currentData.dataAbilities[i].cost, 0f, 1f);
+
+				imagesIconUIs[i].UpdateFill(fill);
+			}
+			
 			if (character.currentGaugesPoints[1] >= UFE.config.player1Character.maxGaugePoints)
 			{
 				btnUnti.SetActive(true);
@@ -67,6 +79,7 @@ namespace ControlFreak2
 			}
 		}
 
+		public DataSkill currentData;
 		private void DeActivePanel(ControlsScript winner, ControlsScript loser)
 		{
 			root.SetActive(false);
@@ -78,18 +91,24 @@ namespace ControlFreak2
 
 		public DataBtn dataBtn3;
 
-		public DataSkill dataSkillJack;
+		public List<DataSkill> dataSkill;
 		
-		public DataSkill dataSkillRock;
-
 		[FormerlySerializedAs("imagesIconJacAbilityUis")] public List<AbilityUI> imagesIconUIs;
 
 		public GameObject root;
 
 		void Awake()
 		{
-			//UFE.OnMove += OnMovePerformed;
-			//UFE.OnGameBegin += OnInitAbility;
+			/*btnUnti.SetActive((false));
+			rig = GetComponentInChildren<InputRig>();
+
+			UFE.OnMove += OnMovePerformed;
+			UFE.OnGameBegin += OnInitAbility;
+			UFE.OnGameEnds += DeActivePanel;
+
+			UFE.OnGaugeUpdate += ActiveUntiBtn;
+			
+			CF2Input.activeRig = this.rig;*/
 		}
 
 		void OnMovePerformed(MoveInfo move, ControlsScript player)
@@ -120,29 +139,21 @@ namespace ControlFreak2
 				}
 			}
 		}
-
+		
 		public void OnInitAbility(ControlsScript player1, ControlsScript player2, StageOptions stage)
 		{
-			if (player1.myInfo.characterName == "Jack")
+			foreach (var skill in dataSkill)
 			{
-				root.SetActive(true);
-
-				var data = dataSkillJack.dataAbilities;
-
-				for (int i = 0; i < imagesIconUIs.Count; i++)
+				if (skill.Name.Equals(player1.myInfo.characterName))
 				{
-					imagesIconUIs[i].UpdateUi(data[i].icon, data[i].frame, data[i].cost);
-				}
-			}
-			if (player1.myInfo.characterName == "Rock")
-			{
-				root.SetActive(true);
-
-				var data = dataSkillRock.dataAbilities;
-
-				for (int i = 0; i < imagesIconUIs.Count; i++)
-				{
-					imagesIconUIs[i].UpdateUi(data[i].icon, data[i].frame, data[i].cost);
+					currentData = skill;
+					//root.SetActive(true);
+					
+					for (int i = 0; i < imagesIconUIs.Count; i++)
+					{
+						var data = skill.dataAbilities;
+						imagesIconUIs[i].UpdateUi(data[i].icon, data[i].type, data[i].cost);
+					}
 				}
 			}
 		}
@@ -151,9 +162,15 @@ namespace ControlFreak2
 		{
 			UFE.OnMove -= OnMovePerformed;
 			UFE.OnGameBegin -= OnInitAbility;
+			UFE.OnRoundBegins -= ActiveRoot;
 			UFE.OnGameEnds -= DeActivePanel;
 
 			UFE.OnGaugeUpdate -= ActiveUntiBtn;
+		}
+
+		private void ActiveRoot(int newint)
+		{
+			root.SetActive(true);
 		}
 
 		// --------------

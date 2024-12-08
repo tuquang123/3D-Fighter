@@ -4388,8 +4388,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 28
-    activeFramesEnds: 34
+    activeFramesBegins: 73
+    activeFramesEnds: 79
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4475,14 +4475,14 @@ MonoBehaviour:
   sortOrder: []
   particleEffects: []
   appliedForces:
-  - castingFrame: 10
+  - castingFrame: 15
     resetPreviousVertical: 1
     resetPreviousHorizontal: 1
     affectAssists: 0
     affectCharacter: 1
     _force:
       x:
-        _serializedValue: 236223201280
+        _serializedValue: 128849018880
       y:
         _serializedValue: 0
       z:
@@ -4587,13 +4587,7 @@ MonoBehaviour:
         _serializedValue: -671796480
   lockOnTargets: []
   switchCharacterOptions: []
-  invincibleBodyParts:
-  - bodyParts: 
-    completelyInvincible: 1
-    ignoreBodyColliders: 0
-    activeFramesBegin: 0
-    activeFramesEnds: 12
-    hitBoxes: []
+  invincibleBodyParts: []
   stateOverride: []
   armorOptions:
     activeFramesBegin: 0
@@ -4625,21 +4619,21 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles:
-  - castingFrame: 65
+  - castingFrame: 40
     projectilePrefab: {fileID: 689384533041955296, guid: e12bcac0c76ec8f408eef73c31066520,
       type: 3}
-    impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
+    impactPrefab: {fileID: 1746675453279186, guid: 01638115f50284b4fb616d584a6fabff,
       type: 3}
-    bodyPart: 9
+    bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: -10737418240
       z:
         _serializedValue: 0
-    speed: 18
+    speed: 55
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888

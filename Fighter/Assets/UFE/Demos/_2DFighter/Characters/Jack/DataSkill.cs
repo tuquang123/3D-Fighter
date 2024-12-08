@@ -6,5 +6,6 @@ using UnityEngine;
 
 public class DataSkill : ScriptableObject
 {
+    public string Name;
     public List<DataAbility> dataAbilities;
 }

@@ -154,7 +154,7 @@ InputManager:
     descriptiveName: Hard Kick
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: j
+    positiveButton: 
     altNegativeButton: 
     altPositiveButton: joystick button 7
     gravity: 1000
@@ -234,7 +234,7 @@ InputManager:
     descriptiveName: bl2
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: 
+    positiveButton: j
     altNegativeButton: 
     altPositiveButton: joystick button 7
     gravity: 1000

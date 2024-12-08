@@ -6242,9 +6242,9 @@ MonoBehaviour:
       z:
         _serializedValue: 0
     castingFrame: 22
-    characterInfo: {fileID: 11400000, guid: ed7907454e79caa40b1640b183392106, type: 2}
-    enterMove: {fileID: 11400000, guid: dcee92323663f8b4a9ad60a366dfdc24, type: 2}
-    exitMove: {fileID: 11400000, guid: fed16e2e9fb62814697585880694728b, type: 2}
+    characterInfo: {fileID: 11400000, guid: 2264f894dd3c5a34ebecd9e656f93336, type: 2}
+    enterMove: {fileID: 11400000, guid: 754439fcaa8d6fd4ea0141fe0239891c, type: 2}
+    exitMove: {fileID: 11400000, guid: 8d7c24c18460ef9429386cf73553fe20, type: 2}
     animationPreview: 0
   soundEffects: []
   inGameAlert: []

@@ -3656,7 +3656,7 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
     type: 3}
-  moveName: Skill 1 3
+  moveName: until
   description: 
   fps: 60
   ignoreGravity: 0
@@ -3851,7 +3851,7 @@ MonoBehaviour:
     fixRotation: 0
     armorBreaker: 0
     continuousHit: 0
-    unblockable: 0
+    unblockable: 1
     spaceBetweenHits: 2
     groundHit: 1
     crouchingHit: 1
@@ -3864,8 +3864,8 @@ MonoBehaviour:
       basicMovesToggle: 0
       statesToggle: 0
     downHit: 0
-    resetPreviousHitStun: 1
-    resetCrumples: 1
+    resetPreviousHitStun: 0
+    resetCrumples: 0
     customStunValues: 0
     overrideHitEffects: 0
     hitEffects:
@@ -3924,12 +3924,12 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 0
-    hitStunType: 1
+    hitStrength: 2
+    hitStunType: 2
     _hitStunOnHit:
-      _serializedValue: 343597383680
+      _serializedValue: 8589934592
     _hitStunOnBlock:
-      _serializedValue: 343597383680
+      _serializedValue: 8589934592
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 1
@@ -3941,7 +3941,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 3435973836800
     doesntKill: 0
-    hitType: 0
+    hitType: 1
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
@@ -4051,10 +4051,10 @@ MonoBehaviour:
           _serializedValue: 0
     hitToggle: 1
     damageOptionsToggle: 0
-    hitStunOptionsToggle: 1
-    forceOptionsToggle: 1
-    opponentForceToggle: 1
-    selfForceToggle: 1
+    hitStunOptionsToggle: 0
+    forceOptionsToggle: 0
+    opponentForceToggle: 0
+    selfForceToggle: 0
     stageReactionsToggle: 0
     overrideEventsToggle: 0
     hitConditionsToggle: 0

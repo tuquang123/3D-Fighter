@@ -4388,8 +4388,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 28
-    activeFramesEnds: 34
+    activeFramesBegins: 77
+    activeFramesEnds: 131
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -4400,18 +4400,18 @@ MonoBehaviour:
     anyHitType: 1
     hitType: 0
     ignoreInputs: 0
-    ignorePlayerConditions: 0
+    ignorePlayerConditions: 1
     ignoreGauge: 0
     nextMoveStartupFrame: 1
     linkableMoves:
-    - {fileID: 11400000, guid: 922672e9fc2877b45a3888aedf004ea2, type: 2}
-    - {fileID: 11400000, guid: 487f18db849b277449916755056bc20b, type: 2}
-    - {fileID: 11400000, guid: 4237321ddf9a19742a8659a570ff2b6b, type: 2}
-    - {fileID: 11400000, guid: da3d2a7ddb0428d4d8ea8ef4aeea843a, type: 2}
-    - {fileID: 11400000, guid: 88910d0e416c9e94cba4f0aa8b476d1a, type: 2}
-    - {fileID: 11400000, guid: e7b3bc9f9805b1943b63e6c450a32e20, type: 2}
-    - {fileID: 11400000, guid: aca4ac6275b299146bc8d880f4189333, type: 2}
-    - {fileID: 11400000, guid: 4767e384fe3353746ae4cc6e6cdebbf0, type: 2}
+    - {fileID: 11400000, guid: 556ceae36a1a1104b88d24fc944cf51e, type: 2}
+    - {fileID: 11400000, guid: d968a1bcda21f504da0f54db7274e173, type: 2}
+    - {fileID: 11400000, guid: 4e4c9d915bc49164b89075724bfedad6, type: 2}
+    - {fileID: 11400000, guid: c1c27757bf22fe9429a8713d75a9d852, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: e212bd1d5424c1d4b8b5526776362e11, type: 2}
+    - {fileID: 11400000, guid: a2a5ba93d76198e43a5eec41cb36bf9c, type: 2}
+    - {fileID: 11400000, guid: 3c5b4cabb5cdb164aa449adddebbb3e1, type: 2}
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 0
@@ -4519,7 +4519,7 @@ MonoBehaviour:
     techable: 1
     resetHitAnimations: 1
     forceStand: 0
-    fixRotation: 1
+    fixRotation: 0
     armorBreaker: 0
     continuousHit: 0
     unblockable: 0
@@ -4598,9 +4598,9 @@ MonoBehaviour:
     hitStrength: 0
     hitStunType: 1
     _hitStunOnHit:
-      _serializedValue: 300647710720
+      _serializedValue: 150323855360
     _hitStunOnBlock:
-      _serializedValue: 300647710720
+      _serializedValue: 150323855360
     frameAdvantageOnHit: 0
     frameAdvantageOnBlock: 0
     damageScaling: 0
@@ -4617,7 +4617,7 @@ MonoBehaviour:
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
-    applyDifferentAirForce: 0
+    applyDifferentAirForce: 1
     applyDifferentBlockForce: 0
     applyDifferentSelfAirForce: 0
     applyDifferentSelfBlockForce: 0
@@ -4625,14 +4625,14 @@ MonoBehaviour:
       x:
         _serializedValue: 42949672960
       y:
-        _serializedValue: 107374182400
+        _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       y:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -4720,10 +4720,10 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    hitToggle: 0
-    damageOptionsToggle: 0
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitToggle: 1
+    damageOptionsToggle: 1
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0
@@ -4734,7 +4734,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 14
+    - bodyPart: 9
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -4896,22 +4896,22 @@ MonoBehaviour:
     resetPreviousVerticalPush: 1
     resetPreviousSidewaysPush: 0
     resetJumpForce: 0
-    applyDifferentAirForce: 0
+    applyDifferentAirForce: 1
     applyDifferentBlockForce: 0
     applyDifferentSelfAirForce: 0
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 42949672960
-      y:
         _serializedValue: 107374182400
+      y:
+        _serializedValue: 0
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       y:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -5002,7 +5002,7 @@ MonoBehaviour:
     hitToggle: 1
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0
@@ -5013,7 +5013,7 @@ MonoBehaviour:
     wallBounceToggle: 0
     groundBounceToggle: 0
     hurtBoxes:
-    - bodyPart: 14
+    - bodyPart: 9
       followXBounds: 0
       followYBounds: 0
       hitBoxDefinitionIndex: 0
@@ -5028,45 +5028,45 @@ MonoBehaviour:
         _serializedValue: 2147483648
       _rect:
         _x:
-          _serializedValue: 14602889216
+          _serializedValue: 3994319616
         _y:
           _serializedValue: -2963527424
         topRight:
           x:
-            _serializedValue: 25297358848
+            _serializedValue: 24438364160
           y:
             _serializedValue: -2963527424
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: 14602889216
+            _serializedValue: 3994319616
           y:
             _serializedValue: -2963527424
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 25297358848
+            _serializedValue: 24438364160
           y:
-            _serializedValue: 24867860480
+            _serializedValue: 23364622336
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: 14602889216
+            _serializedValue: 3994319616
           y:
-            _serializedValue: 24867860480
+            _serializedValue: 23364622336
           z:
             _serializedValue: 0
         width:
-          _serializedValue: 10694468608
+          _serializedValue: 20444045312
         height:
-          _serializedValue: 27831388160
+          _serializedValue: 26328150016
         xMax:
-          _serializedValue: 25297358848
+          _serializedValue: 24438364160
         yMax:
-          _serializedValue: 24867860480
+          _serializedValue: 23364622336
       shape: 1
       type: 0
   blockableArea:

@@ -257,10 +257,10 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 1
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 2
     activeCharacters:
-    - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
-    - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
+    - {fileID: 11400000, guid: 21e42c768f7ab42438235211372300e2, type: 2}
+    - {fileID: 11400000, guid: 3864ad52e41ca9f4c8e2d7bdb6d2bc3c, type: 2}
     - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
     - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
     - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
@@ -280,7 +280,7 @@ MonoBehaviour:
     - {fileID: 0}
     AIControlled: 00000000000000010101010101010101010101
     selectedTeamMode: 0
-    skipLoadingScreen: 0
+    skipLoadingScreen: 1
   cameraOptions:
     initialDistance: {x: 0, y: 9, z: -46}
     initialRotation: {x: 7, y: 0, z: 0}

@@ -6823,17 +6823,17 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 130
-  startUpFrames: 7
-  activeFrames: 8
-  recoveryFrames: 115
-  applyRootMotion: 1
+  startUpFrames: 0
+  activeFrames: 48
+  recoveryFrames: 82
+  applyRootMotion: 0
   lockXMotion: 0
   lockYMotion: 0
   lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
-  overrideBlendingIn: 1
-  overrideBlendingOut: 1
+  overrideBlendingIn: 0
+  overrideBlendingOut: 0
   _blendingIn:
     _serializedValue: 0
   _blendingOut:
@@ -6912,8 +6912,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 35
-    activeFramesEnds: 39
+    activeFramesBegins: 113
+    activeFramesEnds: 129
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -6998,7 +6998,19 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
+  appliedForces:
+  - castingFrame: 0
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: -85899345920
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   opAppliedForces: []
   slowMoEffects:
   - castingFrame: 0
@@ -7097,11 +7109,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -4220674304
+        _serializedValue: 4048214016
       y:
-        _serializedValue: 2827958016
+        _serializedValue: 1763162112
       z:
-        _serializedValue: 2278261248
+        _serializedValue: 5546731520
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []
@@ -7136,21 +7148,21 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles:
-  - castingFrame: 70
+  - castingFrame: 82
     projectilePrefab: {fileID: 689384533041955296, guid: e12bcac0c76ec8f408eef73c31066520,
       type: 3}
     impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
       type: 3}
-    bodyPart: 9
+    bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 4294967296
       z:
         _serializedValue: 0
-    speed: 18
+    speed: 55
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888

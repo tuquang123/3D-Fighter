@@ -7040,7 +7040,7 @@ MonoBehaviour:
     armorBreaker: 0
     continuousHit: 1
     unblockable: 0
-    spaceBetweenHits: 4
+    spaceBetweenHits: 3
     groundHit: 1
     crouchingHit: 1
     airHit: 1
@@ -7140,16 +7140,16 @@ MonoBehaviour:
     applyDifferentSelfBlockForce: 0
     _pushForce:
       x:
-        _serializedValue: 128849018880
+        _serializedValue: 85899345920
       y:
-        _serializedValue: 128849018880
+        _serializedValue: 42949672960
       z:
         _serializedValue: 0
     _pushForceAir:
       x:
-        _serializedValue: 0
+        _serializedValue: 85899345920
       y:
-        _serializedValue: 0
+        _serializedValue: 42949672960
       z:
         _serializedValue: 0
     _pushForceBlock:
@@ -7247,7 +7247,7 @@ MonoBehaviour:
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
-    hurtBoxesToggle: 0
+    hurtBoxesToggle: 1
     wallBounceToggle: 1
     groundBounceToggle: 0
     hurtBoxes:
@@ -7266,35 +7266,35 @@ MonoBehaviour:
         _serializedValue: 2147483648
       _rect:
         _x:
-          _serializedValue: 0
+          _serializedValue: 8675833856
         _y:
-          _serializedValue: -5282809856
+          _serializedValue: -3264175104
         topRight:
           x:
-            _serializedValue: 20658792448
+            _serializedValue: 29334626304
           y:
-            _serializedValue: -5282809856
+            _serializedValue: -3264175104
           z:
             _serializedValue: 0
         topLeft:
           x:
-            _serializedValue: 0
+            _serializedValue: 8675833856
           y:
-            _serializedValue: -5282809856
+            _serializedValue: -3264175104
           z:
             _serializedValue: 0
         bottomRight:
           x:
-            _serializedValue: 20658792448
+            _serializedValue: 29334626304
           y:
-            _serializedValue: 2877627904
+            _serializedValue: 4896262656
           z:
             _serializedValue: 0
         bottomLeft:
           x:
-            _serializedValue: 0
+            _serializedValue: 8675833856
           y:
-            _serializedValue: 2877627904
+            _serializedValue: 4896262656
           z:
             _serializedValue: 0
         width:
@@ -7302,9 +7302,9 @@ MonoBehaviour:
         height:
           _serializedValue: 8160437760
         xMax:
-          _serializedValue: 20658792448
+          _serializedValue: 29334626304
         yMax:
-          _serializedValue: 2877627904
+          _serializedValue: 4896262656
       shape: 1
       type: 0
   blockableArea:
@@ -7388,11 +7388,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -15675585536
+        _serializedValue: 6506695680
       y:
-        _serializedValue: 12364719104
+        _serializedValue: -1107876480
       z:
-        _serializedValue: 1128543872
+        _serializedValue: 6258707456
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

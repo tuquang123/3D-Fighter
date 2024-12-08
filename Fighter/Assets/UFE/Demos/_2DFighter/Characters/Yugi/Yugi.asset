@@ -26,8 +26,8 @@ MonoBehaviour:
   height: 168
   age: 22
   bloodType: Unknown
-  lifePoints: 21000
-  maxGaugePoints: 100
+  lifePoints: 18000
+  maxGaugePoints: 80
   characterPrefabStorage: 0
   characterPrefab: {fileID: 194332, guid: 9aff230267747414ab3e7ffd8690158f, type: 3}
   prefabResourcePath: _2DFighter\Characters\Ethan
@@ -38,6 +38,12 @@ MonoBehaviour:
     prefabResourcePath: _2DFighter\Characters\Ethan
     enableColorMask: 1
     colorMask: {r: 0.2981131, g: 0.28742602, b: 0.28742602, a: 0}
+  - name: 
+    characterPrefabStorage: 0
+    prefab: {fileID: 0}
+    prefabResourcePath: 
+    enableColorMask: 0
+    colorMask: {r: 0, g: 0, b: 0, a: 0}
   initialPosition:
     x:
       _serializedValue: 0
@@ -56,9 +62,9 @@ MonoBehaviour:
       _serializedValue: 3037000704
   physics:
     _moveForwardSpeed:
-      _serializedValue: 30064771072
+      _serializedValue: 137438953472
     _moveBackSpeed:
-      _serializedValue: 27917287424
+      _serializedValue: 150323855360
     _moveSidewaysSpeed:
       _serializedValue: 17179869184
     highMovingFriction: 1

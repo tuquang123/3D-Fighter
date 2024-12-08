@@ -7376,11 +7376,11 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: -4220674304
+        _serializedValue: -3832142336
       y:
-        _serializedValue: 2827958016
+        _serializedValue: 2644545280
       z:
-        _serializedValue: 2278261248
+        _serializedValue: 869933312
   lockOnTargets: []
   switchCharacterOptions: []
   invincibleBodyParts: []

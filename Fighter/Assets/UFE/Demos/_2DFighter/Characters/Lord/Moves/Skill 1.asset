@@ -3787,6 +3787,38 @@ MonoBehaviour:
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 1
+  - linkType: 2
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 54
+    activeFramesEnds: 63
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 0
+    ignorePlayerConditions: 1
+    ignoreGauge: 0
+    nextMoveStartupFrame: 1
+    linkableMoves:
+    - {fileID: 11400000, guid: 922672e9fc2877b45a3888aedf004ea2, type: 2}
+    - {fileID: 11400000, guid: 487f18db849b277449916755056bc20b, type: 2}
+    - {fileID: 11400000, guid: 4237321ddf9a19742a8659a570ff2b6b, type: 2}
+    - {fileID: 11400000, guid: da3d2a7ddb0428d4d8ea8ef4aeea843a, type: 2}
+    - {fileID: 11400000, guid: 9c0b87f67b3f91344b962a06ad2a339d, type: 2}
+    - {fileID: 11400000, guid: 0118c51e99ad6134f9e1673743a91fb6, type: 2}
+    - {fileID: 11400000, guid: aca4ac6275b299146bc8d880f4189333, type: 2}
+    - {fileID: 11400000, guid: 4767e384fe3353746ae4cc6e6cdebbf0, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0
@@ -3984,16 +4016,16 @@ MonoBehaviour:
       type: 3}
     impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
       type: 3}
-    bodyPart: 9
+    bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 4294967296
       z:
         _serializedValue: 0
-    speed: 18
+    speed: 55
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888

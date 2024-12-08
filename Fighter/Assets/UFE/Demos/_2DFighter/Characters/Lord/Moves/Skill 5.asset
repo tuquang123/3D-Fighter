@@ -6802,8 +6802,8 @@ MonoBehaviour:
   wrapMode: 0
   characterPrefab: {fileID: 1414399341442342, guid: feacbb667072e9141ac82392782eddc3,
     type: 3}
-  moveName: 4
-  description: 2
+  moveName: 6
+  description: 3
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
@@ -6850,7 +6850,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 08000000
+    buttonExecution: 0e000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -6912,8 +6912,8 @@ MonoBehaviour:
     onStrike: 1
     onBlock: 1
     onParry: 1
-    activeFramesBegins: 75
-    activeFramesEnds: 63
+    activeFramesBegins: 69
+    activeFramesEnds: 79
     counterMoveType: 0
     counterMoveFilter: {fileID: 0}
     disableHitImpact: 1
@@ -6998,14 +6998,21 @@ MonoBehaviour:
     editorToggle: 0
   sortOrder: []
   particleEffects: []
-  appliedForces: []
-  opAppliedForces: []
-  slowMoEffects:
+  appliedForces:
   - castingFrame: 0
-    _duration:
-      _serializedValue: 1288490240
-    _percentage:
-      _serializedValue: 343597383680
+    resetPreviousVertical: 1
+    resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
+    _force:
+      x:
+        _serializedValue: -85899345920
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+  opAppliedForces: []
+  slowMoEffects: []
   bodyPartVisibilityChanges: []
   opponentOverride: []
   characterAssist: []
@@ -7136,12 +7143,12 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles:
-  - castingFrame: 50
+  - castingFrame: 35
     projectilePrefab: {fileID: 689384533041955296, guid: e12bcac0c76ec8f408eef73c31066520,
       type: 3}
     impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
       type: 3}
-    bodyPart: 9
+    bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
       x:
@@ -7150,7 +7157,685 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    speed: 18
+    speed: 50
+    directionAngle: 0
+    _duration:
+      _serializedValue: 12884901888
+    impactDuration: 0.6
+    fixedZAxis: 1
+    projectileCollision: 1
+    unblockable: 1
+    mirrorOn2PSide: 0
+    destroyWhenOffCameraBounds: 1
+    applyGravity: 0
+    limitMultiCasting: 0
+    onScreenLimit: 0
+    limitOnlyThis: 0
+    forceApplied:
+      x:
+        _serializedValue: 171798691840
+      y:
+        _serializedValue: 34359738368
+      z:
+        _serializedValue: 0
+    weight:
+      _serializedValue: 0
+    cameraBoundsOffSet:
+      _serializedValue: 8589934592
+    hitBox:
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4
+        height: 4
+      defaultVisibility: 1
+      followXBounds: 0
+      followYBounds: 0
+      position: {fileID: 0}
+      bodyPart: 0
+      mappedPosition:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      localPosition:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      shape: 0
+      collisionType: 0
+      type: 0
+      _rect:
+        _x:
+          _serializedValue: 0
+        _y:
+          _serializedValue: 0
+        topRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 0
+        height:
+          _serializedValue: 0
+        xMax:
+          _serializedValue: 0
+        yMax:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 2147483648
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+    hurtBox:
+      bodyPart: 0
+      followXBounds: 0
+      followYBounds: 0
+      hitBoxDefinitionIndex: 0
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 2576980480
+      _rect:
+        _x:
+          _serializedValue: 0
+        _y:
+          _serializedValue: 0
+        topRight:
+          x:
+            _serializedValue: 5153960960
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 5153960960
+          y:
+            _serializedValue: 5153960960
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 5153960960
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 5153960960
+        height:
+          _serializedValue: 5153960960
+        xMax:
+          _serializedValue: 5153960960
+        yMax:
+          _serializedValue: 5153960960
+      shape: 0
+      type: 0
+    blockableArea:
+      enabled: 1
+      activeFramesBegin: 0
+      activeFramesEnds: 0
+      bodyPart: 0
+      hitBoxDefinitionIndex: 0
+      shape: 1
+      rect:
+        serializedVersion: 2
+        x: -2
+        y: -0.5
+        width: 6
+        height: 1
+      _rect:
+        _x:
+          _serializedValue: -8589934592
+        _y:
+          _serializedValue: -2147483648
+        topRight:
+          x:
+            _serializedValue: 17179869184
+          y:
+            _serializedValue: -2147483648
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: -8589934592
+          y:
+            _serializedValue: -2147483648
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 17179869184
+          y:
+            _serializedValue: 2147483648
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: -8589934592
+          y:
+            _serializedValue: 2147483648
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 25769803776
+        height:
+          _serializedValue: 4294967296
+        xMax:
+          _serializedValue: 17179869184
+        yMax:
+          _serializedValue: 2147483648
+      followXBounds: 0
+      followYBounds: 0
+      _radius:
+        _serializedValue: 2147483648
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      cuboidMin:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      cuboidMax:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      position:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+    spaceBetweenHits: 0
+    totalHits: 1
+    resetPreviousHitStun: 1
+    hitStunOnHit: 35
+    hitStunOnBlock: 8
+    overrideHitEffects: 0
+    fixRotation: 1
+    armorBreaker: 0
+    hitEffects:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      sticky: 0
+      _hitStop:
+        _serializedValue: 429496736
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    groundHit: 1
+    airHit: 1
+    downHit: 0
+    damageType: 1
+    _damageOnHit:
+      _serializedValue: 3435973836800
+    _damageOnBlock:
+      _serializedValue: 3435973836800
+    damageScaling: 1
+    doesntKill: 0
+    groundBounce: 0
+    obeyDirectionalHit: 1
+    hitEffectsOnHit: 1
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
+    applyDifferentAirForce: 1
+    applyDifferentBlockForce: 0
+    _pushForce:
+      x:
+        _serializedValue: 85899345920
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _pushForceAir:
+      x:
+        _serializedValue: 42949672960
+      y:
+        _serializedValue: 42949672960
+      z:
+        _serializedValue: 0
+    _pushForceBlock:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    hitStrength: 2
+    hitType: 1
+    moveLinkOnStrike: {fileID: 0}
+    moveLinkOnBlock: {fileID: 0}
+    moveLinkOnParry: {fileID: 0}
+    forceGrounded: 0
+    moveLinksToggle: 0
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
+    preview: 1
+    moveName: 
+  - castingFrame: 37
+    projectilePrefab: {fileID: 689384533041955296, guid: e12bcac0c76ec8f408eef73c31066520,
+      type: 3}
+    impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
+      type: 3}
+    bodyPart: 8
+    hitBoxDefinitionIndex: 0
+    _castingOffSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -2576980480
+      z:
+        _serializedValue: 0
+    speed: 50
+    directionAngle: 0
+    _duration:
+      _serializedValue: 12884901888
+    impactDuration: 0.6
+    fixedZAxis: 1
+    projectileCollision: 1
+    unblockable: 1
+    mirrorOn2PSide: 0
+    destroyWhenOffCameraBounds: 1
+    applyGravity: 0
+    limitMultiCasting: 0
+    onScreenLimit: 0
+    limitOnlyThis: 0
+    forceApplied:
+      x:
+        _serializedValue: 171798691840
+      y:
+        _serializedValue: 34359738368
+      z:
+        _serializedValue: 0
+    weight:
+      _serializedValue: 0
+    cameraBoundsOffSet:
+      _serializedValue: 8589934592
+    hitBox:
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4
+        height: 4
+      defaultVisibility: 1
+      followXBounds: 0
+      followYBounds: 0
+      position: {fileID: 0}
+      bodyPart: 0
+      mappedPosition:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      localPosition:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      shape: 0
+      collisionType: 0
+      type: 0
+      _rect:
+        _x:
+          _serializedValue: 0
+        _y:
+          _serializedValue: 0
+        topRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 0
+        height:
+          _serializedValue: 0
+        xMax:
+          _serializedValue: 0
+        yMax:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 2147483648
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+    hurtBox:
+      bodyPart: 0
+      followXBounds: 0
+      followYBounds: 0
+      hitBoxDefinitionIndex: 0
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      _radius:
+        _serializedValue: 2576980480
+      _rect:
+        _x:
+          _serializedValue: 0
+        _y:
+          _serializedValue: 0
+        topRight:
+          x:
+            _serializedValue: 5153960960
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 0
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 5153960960
+          y:
+            _serializedValue: 5153960960
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: 0
+          y:
+            _serializedValue: 5153960960
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 5153960960
+        height:
+          _serializedValue: 5153960960
+        xMax:
+          _serializedValue: 5153960960
+        yMax:
+          _serializedValue: 5153960960
+      shape: 0
+      type: 0
+    blockableArea:
+      enabled: 1
+      activeFramesBegin: 0
+      activeFramesEnds: 0
+      bodyPart: 0
+      hitBoxDefinitionIndex: 0
+      shape: 1
+      rect:
+        serializedVersion: 2
+        x: -2
+        y: -0.5
+        width: 6
+        height: 1
+      _rect:
+        _x:
+          _serializedValue: -8589934592
+        _y:
+          _serializedValue: -2147483648
+        topRight:
+          x:
+            _serializedValue: 17179869184
+          y:
+            _serializedValue: -2147483648
+          z:
+            _serializedValue: 0
+        topLeft:
+          x:
+            _serializedValue: -8589934592
+          y:
+            _serializedValue: -2147483648
+          z:
+            _serializedValue: 0
+        bottomRight:
+          x:
+            _serializedValue: 17179869184
+          y:
+            _serializedValue: 2147483648
+          z:
+            _serializedValue: 0
+        bottomLeft:
+          x:
+            _serializedValue: -8589934592
+          y:
+            _serializedValue: 2147483648
+          z:
+            _serializedValue: 0
+        width:
+          _serializedValue: 25769803776
+        height:
+          _serializedValue: 4294967296
+        xMax:
+          _serializedValue: 17179869184
+        yMax:
+          _serializedValue: 2147483648
+      followXBounds: 0
+      followYBounds: 0
+      _radius:
+        _serializedValue: 2147483648
+      _offSet:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      cuboidMin:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      cuboidMax:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+      position:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 0
+        z:
+          _serializedValue: 0
+    spaceBetweenHits: 0
+    totalHits: 1
+    resetPreviousHitStun: 1
+    hitStunOnHit: 35
+    hitStunOnBlock: 8
+    overrideHitEffects: 0
+    fixRotation: 1
+    armorBreaker: 0
+    hitEffects:
+      hitParticle: {fileID: 0}
+      killTime: 0
+      hitSound: {fileID: 0}
+      spawnPoint: 1
+      _freezingTime:
+        _serializedValue: 0
+      _animationSpeed:
+        _serializedValue: 429496736
+      autoHitStop: 1
+      sticky: 0
+      _hitStop:
+        _serializedValue: 429496736
+      mirrorOn2PSide: 0
+      shakeCharacterOnHit: 1
+      shakeCameraOnHit: 1
+      _shakeDensity:
+        _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
+      editorToggle: 0
+    groundHit: 1
+    airHit: 1
+    downHit: 0
+    damageType: 1
+    _damageOnHit:
+      _serializedValue: 3435973836800
+    _damageOnBlock:
+      _serializedValue: 3435973836800
+    damageScaling: 1
+    doesntKill: 0
+    groundBounce: 0
+    obeyDirectionalHit: 1
+    hitEffectsOnHit: 1
+    resetPreviousHorizontalPush: 1
+    resetPreviousVerticalPush: 1
+    applyDifferentAirForce: 1
+    applyDifferentBlockForce: 0
+    _pushForce:
+      x:
+        _serializedValue: 85899345920
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    _pushForceAir:
+      x:
+        _serializedValue: 42949672960
+      y:
+        _serializedValue: 42949672960
+      z:
+        _serializedValue: 0
+    _pushForceBlock:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    hitStrength: 2
+    hitType: 1
+    moveLinkOnStrike: {fileID: 0}
+    moveLinkOnBlock: {fileID: 0}
+    moveLinkOnParry: {fileID: 0}
+    forceGrounded: 0
+    moveLinksToggle: 0
+    damageOptionsToggle: 0
+    hitStunOptionsToggle: 0
+    preview: 1
+    moveName: 
+  - castingFrame: 39
+    projectilePrefab: {fileID: 689384533041955296, guid: e12bcac0c76ec8f408eef73c31066520,
+      type: 3}
+    impactPrefab: {fileID: 1643851402782444, guid: 4f703a1da613efc43b08b1d2bdcfd49f,
+      type: 3}
+    bodyPart: 8
+    hitBoxDefinitionIndex: 0
+    _castingOffSet:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: -515396064
+      z:
+        _serializedValue: 0
+    speed: 50
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888

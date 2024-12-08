@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3f78f2e438df44888ae6d90f018434, type: 3}
   m_Name: DataAbilityRock
   m_EditorClassIdentifier: 
+  Name: Rock
   dataAbilities:
   - cost: 3
     id: 1

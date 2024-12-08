@@ -77,6 +77,7 @@ public class DefaultBattleGUI : BattleGUI{
 	protected float player2AlertTimer = 0f;
 	protected float mainAlertTimer = 0f;
 	protected UFEScreen pause = null;
+	public GameObject root;
 	
 	#endregion
 
@@ -87,8 +88,21 @@ public class DefaultBattleGUI : BattleGUI{
 	#endregion
 	void Start()
 	{
+		//gameObject.SetActive(false);
 		StartCoroutine(RegenerateMana());
 		UFE.OnHit += ShowDameText;
+		UFE.OnRoundBegins += ActiveRoot;
+		UFE.OnGameEnds += DeActivePanel;
+	}
+
+	private void DeActivePanel(ControlsScript winner, ControlsScript loser)
+	{
+		root.SetActive(false);
+	}
+
+	private void ActiveRoot(int newint)
+	{
+		root.SetActive(true);
 	}
 
 	private void ShowDameText(HitBox strokeHitBox, MoveInfo move, Hit hitInfo, ControlsScript player)
@@ -110,6 +124,8 @@ public class DefaultBattleGUI : BattleGUI{
 	private void OnDestroy()
 	{
 		UFE.OnHit -= ShowDameText;
+		UFE.OnRoundBegins -= ActiveRoot;
+		UFE.OnGameEnds -= DeActivePanel;
 	}
 
 	IEnumerator RegenerateMana()

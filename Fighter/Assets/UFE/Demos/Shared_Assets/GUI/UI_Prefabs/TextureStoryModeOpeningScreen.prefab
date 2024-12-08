@@ -100,7 +100,7 @@ MonoBehaviour:
   skippable: 1
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
-  delayBeforeGoingToNextScreen: 3
+  delayBeforeGoingToNextScreen: 0.5
   minDelayBeforeSkipping: 0.1
 --- !u!1 &100002
 GameObject:

@@ -30,6 +30,27 @@ public class StoryModeTextureScreen : StoryModeScreen {
 		}
 		
 		this.StartCoroutine(this.ShowScreen());
+		
+		/*// Lấy thông tin nhân vật Player 1
+		var player1Character = UFE.GetPlayer1();  
+
+        // Lấy các alternative costumes của Player 1
+		var alternativeCostumes = player1Character.alternativeCostumes;
+
+        // Kiểm tra xem có đủ alternative costumes không
+		if (alternativeCostumes != null && alternativeCostumes.Length > 1)
+		{
+			// Thay đổi skin của nhân vật, ở đây chọn costume thứ 1 (chỉ số 1)
+			player1Character.characterPrefab = alternativeCostumes[1].prefab;  // Chọn alternative costume thứ 1
+
+			// Đặt lại nhân vật Player 1 với skin mới
+			UFE.SetPlayer1(player1Character);
+		}
+		else
+		{
+			Debug.Log("No alternative costumes available for Player 1.");
+		}*/
+
 	}
 	
 	public virtual IEnumerator ShowScreen(){

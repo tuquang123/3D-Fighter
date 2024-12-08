@@ -12,28 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3f78f2e438df44888ae6d90f018434, type: 3}
   m_Name: DataAbilityJack
   m_EditorClassIdentifier: 
+  Name: Jack
   dataAbilities:
   - cost: 3
-    id: 1
     icon: {fileID: 21300000, guid: eb1e69c7f61d48146a6b3b674e5f136d, type: 3}
-    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+    type: 0
   - cost: 3
-    id: 1
     icon: {fileID: 21300000, guid: 4438fe12f6e7af94aadf80e7eccffab0, type: 3}
-    frame: {fileID: 21300000, guid: e9225c19ce2d5324b8b7d25b3034c6c2, type: 3}
+    type: 1
   - cost: 3
-    id: 1
     icon: {fileID: 21300000, guid: a952166fbd336c441923382e5fd69a26, type: 3}
-    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+    type: 0
   - cost: 4
-    id: 1
-    icon: {fileID: 21300000, guid: 99acb17d259f6fb4384269285b23b295, type: 3}
-    frame: {fileID: 21300000, guid: e9225c19ce2d5324b8b7d25b3034c6c2, type: 3}
+    icon: {fileID: 21300000, guid: d40d281f80c5f394390408eef7655d54, type: 3}
+    type: 1
   - cost: 4
-    id: 1
     icon: {fileID: 21300000, guid: 19031c4cc5e422244bb99d171004e3ce, type: 3}
-    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+    type: 0
   - cost: 3
-    id: 1
     icon: {fileID: 21300000, guid: d529385ebdb32c840b48a22d7425db75, type: 3}
-    frame: {fileID: 21300000, guid: d462be4d87db9a6458e87dcd02253127, type: 3}
+    type: 2

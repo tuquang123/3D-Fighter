@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3f78f2e438df44888ae6d90f018434, type: 3}
+  m_Name: DataAbilityYugi
+  m_EditorClassIdentifier: 
+  Name: Yugi
+  dataAbilities:
+  - cost: 3
+    id: 1
+    icon: {fileID: 21300000, guid: 67723812cacc19248af1b3c7ecdc7ccc, type: 3}
+    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+  - cost: 3
+    id: 1
+    icon: {fileID: 21300000, guid: ab3673404697e944386cf94331c1ff97, type: 3}
+    frame: {fileID: 21300000, guid: e9225c19ce2d5324b8b7d25b3034c6c2, type: 3}
+  - cost: 3
+    id: 1
+    icon: {fileID: 21300000, guid: 995e5de2a9cfabd4ba0f37c762bfdb32, type: 3}
+    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+  - cost: 3
+    id: 1
+    icon: {fileID: 21300000, guid: c70e4fa581880574da847f36f15a40ea, type: 3}
+    frame: {fileID: 21300000, guid: e9225c19ce2d5324b8b7d25b3034c6c2, type: 3}
+  - cost: 4
+    id: 1
+    icon: {fileID: 21300000, guid: f109a588be93f634eae311fc591e4ad5, type: 3}
+    frame: {fileID: 21300000, guid: 016751a3c39f99f4b8a610e22681ebae, type: 3}
+  - cost: 3
+    id: 1
+    icon: {fileID: 21300000, guid: 09263751a41bf7b4a931b3c4962206e1, type: 3}
+    frame: {fileID: 21300000, guid: d462be4d87db9a6458e87dcd02253127, type: 3}

@@ -7478,15 +7478,15 @@ MonoBehaviour:
       prefab: {fileID: 6985918888697356210, guid: 5b1655d0dd2496c40bd62ee479f862aa,
         type: 3}
       duration: 0.3
-      stick: 0
-      destroyOnMoveOver: 0
+      stick: 1
+      destroyOnMoveOver: 1
       followRotation: 0
       lockLocalPosition: 0
       mirrorOn2PSide: 0
       overrideRotation: 1
       initialRotation: {x: 0, y: 0, z: 0}
-      positionOffSet: {x: 0, y: 3, z: 0}
-      bodyPart: 1
+      positionOffSet: {x: 0, y: 0, z: 0}
+      bodyPart: 17
       hitBoxDefinitionIndex: 0
   appliedForces: []
   opAppliedForces: []
@@ -7501,7 +7501,7 @@ MonoBehaviour:
     soundEffectsToggle: 1
   inGameAlert:
   - castingFrame: 0
-    alert: Strick
+    alert: Break
   stanceChanges: []
   cameraMovements: []
   hits: []
